@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    int Fish;
+    public int fish
+    {
+        get { return fish; }
+        set { fish = value; }
+    }
     void Start()
     {
         
