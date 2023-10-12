@@ -7,21 +7,30 @@ public class TimeManager : MonoBehaviour
 {
 
     public float gameTime;
-    private TMP_Text text;
+    public TMP_Text text;
+    private Sheep sheep;
 
     void Start()
     {
         text = GameObject.Find("GameTimer").GetComponent<TextMeshProUGUI>();
         gameTime = 30;
+        sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
     }
 
 
     void FixedUpdate()
     {
-        if (gameTime > 0)
+        if (!sheep.hasBeenEaten)
         {
-            gameTime -= Time.deltaTime;
-            text.text = $"Time left: {Mathf.Ceil(gameTime)}";
+            if (gameTime >= 0)
+            {
+                gameTime -= Time.deltaTime;
+                text.text = $"Time left: {Mathf.Ceil(gameTime)}";
+            }
+            else
+            {
+                text.text = $"Game over!";
+            }
         } 
         else
         {

@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class SheepHerderGameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Sheep SheepCondition;
+    private TimeManager timer;
+
     void Start()
     {
-        
+        SheepCondition = GameObject.Find("Sheep").GetComponent<Sheep>();
+        timer = gameObject.GetComponent<TimeManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(SheepCondition.hasBeenEaten == true)
+        {
+            
+        }
     }
 }
