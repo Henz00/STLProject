@@ -1405,6 +1405,7 @@ GameObject:
   - component: {fileID: 1467771736}
   - component: {fileID: 1467771735}
   - component: {fileID: 1467771739}
+  - component: {fileID: 1467771740}
   m_Layer: 0
   m_Name: Wolf
   m_TagString: Enemy
@@ -1564,7 +1565,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPoint: {fileID: 636222483}
-  movementSpeed: 4
+  movementSpeed: 3
+--- !u!114 &1467771740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467771734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c4e290a239c0a4497306a42a530f4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
 --- !u!1 &1639951765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,9 +1673,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1845820142}
   - component: {fileID: 1845820141}
-  - component: {fileID: 1845820140}
   - component: {fileID: 1845820143}
   - component: {fileID: 1845820144}
+  - component: {fileID: 1845820140}
+  - component: {fileID: 1845820146}
+  - component: {fileID: 1845820145}
   m_Layer: 0
   m_Name: Sheepherder
   m_TagString: Untagged
@@ -1821,6 +1837,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &1845820145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845820139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3a3cc630a93184cb3357d5397d6b94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  attackCooldown: 1
+--- !u!114 &1845820146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845820139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f19658a44250304988769a6c266e5d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stunDuration: 2
 --- !u!1 &1921452298
 GameObject:
   m_ObjectHideFlags: 0
