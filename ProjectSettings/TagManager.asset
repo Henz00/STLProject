@@ -42,3 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: "Oven p\xE5"
+    uniqueID: 3768934297
+    locked: 0
