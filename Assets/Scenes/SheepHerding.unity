@@ -427,6 +427,7 @@ GameObject:
   - component: {fileID: 636222481}
   - component: {fileID: 636222480}
   - component: {fileID: 636222484}
+  - component: {fileID: 636222485}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Untagged
@@ -586,6 +587,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasBeenEaten: 0
+--- !u!114 &636222485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636222479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc6aae0884ef76449ecdf7b5890e39a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetPoint: {fileID: 0}
+  movementSpeed: 2
 --- !u!1 &653077003
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,7 +1401,7 @@ Transform:
   m_GameObject: {fileID: 1413701847}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.53, y: 0.87, z: -20}
+  m_LocalPosition: {x: 0.53, y: 0.87, z: -28.187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1546,7 +1561,7 @@ Transform:
   m_GameObject: {fileID: 1467771734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.7982, y: 2.1106, z: -0.8957672}
+  m_LocalPosition: {x: 2.26, y: 5.5, z: -0.8957672}
   m_LocalScale: {x: 1.9828, y: 1.5941, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1660,7 +1675,8 @@ Transform:
   m_LocalPosition: {x: -19.23, y: -1.85, z: 1}
   m_LocalScale: {x: 2.1319, y: 2.294, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1966519456}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1845820139
@@ -1972,6 +1988,37 @@ Transform:
   m_Children:
   - {fileID: 1467771738}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1966519455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1966519456}
+  m_Layer: 0
+  m_Name: SheepTargetPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1966519456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966519455}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.52, y: -0.19, z: 0}
+  m_LocalScale: {x: 0.4690651, y: 0.4359198, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1639951767}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
