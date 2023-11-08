@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 1;
     private int currentHealth;
 
     private void Start()
@@ -23,7 +23,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        // Hvis den skal dø
-        //Destroy(gameObject);
+      
+        Destroy(gameObject);
     }
 }
