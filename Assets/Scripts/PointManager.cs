@@ -22,7 +22,8 @@ public class PointManager : MonoBehaviour
 
     private void FixedUpdate()
     {
-        text.text = $"Points: {30 - (int)Mathf.Ceil(timer.gameTime)}";
+        points = 30 - (int)Mathf.Ceil(timer.gameTime);
+        text.text = $"Points: {points}";
     }
 
     //private void OnTriggerEnter2D(Collider2D collision)
