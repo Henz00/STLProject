@@ -1694,6 +1694,7 @@ GameObject:
   - component: {fileID: 1845820140}
   - component: {fileID: 1845820146}
   - component: {fileID: 1845820145}
+  - component: {fileID: 1845820147}
   m_Layer: 0
   m_Name: Sheepherder
   m_TagString: Untagged
@@ -1810,7 +1811,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1880,6 +1881,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stunDuration: 2
+--- !u!111 &1845820147
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845820139}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1921452298
 GameObject:
   m_ObjectHideFlags: 0
