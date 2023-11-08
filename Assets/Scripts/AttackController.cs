@@ -15,7 +15,7 @@ public class AttackController : MonoBehaviour
         {
             isAttacking = true;
             // Afspil attack animation
-            // GetComponent<Animation>().Play("AttackAnimation");
+            GetComponent<Animation>().Play("AttackAnimation");
 
             // target.GetComponent<Health>().TakeDamage(attackDamage); hvis vi skal bruge liv
 
@@ -42,5 +42,14 @@ public class AttackController : MonoBehaviour
     {
         yield return new WaitForSeconds(attackCooldown);
         isAttacking = false;
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            StunController stunController = GetComponent<StunController>();
+            stunController.StunObject(other.gameObject);
+
+        }
     }
 }
