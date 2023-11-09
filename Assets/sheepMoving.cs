@@ -9,16 +9,24 @@ public class sheepMoving : MonoBehaviour
     public float movementSpeed = 5f;
     public float stoppingDistance = 0.1f;
     public toggleScript enableDisable;
+    private Sheep sheepState;
 
+    private void Start()
+    {
+        sheepState = gameObject.GetComponent<Sheep>();
+    }
     void Update()
     {
-        if (enableDisable != null && enableDisable.isEnabled)
+        if (!sheepState.hasBeenEaten)
         {
-            MoveToTarget(alternateTarget);
-        }
-        else
-        {
-            MoveToTarget(defaultTarget);
+            if (enableDisable != null && enableDisable.isEnabled)
+            {
+                MoveToTarget(alternateTarget);
+            }
+            else
+            {
+                MoveToTarget(defaultTarget);
+            }
         }
     }
 

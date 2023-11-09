@@ -29,15 +29,6 @@ public class AttackController : MonoBehaviour
             //target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
 
             StartCoroutine(AttackCooldown());
-
-            void OnTriggerEnter(Collider other)
-            {
-                if (other.CompareTag("Enemy"))
-                {
-                    StunController stunController = GetComponent<StunController>();
-                    stunController.StunObject(other.gameObject);
-                }
-            }
         }
 
     }

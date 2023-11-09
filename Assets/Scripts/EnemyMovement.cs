@@ -11,6 +11,11 @@ public class EnemyMovement : MonoBehaviour
 
     private bool isHit = false;
 
+    private void Start()
+    {
+        targetObject = GameObject.Find("Sheep").GetComponent<Transform>();
+    }
+
     void Update()
     {
         animator.SetFloat("Speed", moveSpeed);

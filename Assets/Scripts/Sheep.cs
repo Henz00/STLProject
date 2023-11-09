@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class Sheep : MonoBehaviour
 {
     public bool hasBeenEaten;
+    public event EventHandler SheepWasEaten;
 
     void Start()
     {
@@ -15,7 +17,8 @@ public class Sheep : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
-            hasBeenEaten=true;
+            hasBeenEaten = true;
+            SheepWasEaten?.Invoke(this, EventArgs.Empty);
         }
     }
 }
