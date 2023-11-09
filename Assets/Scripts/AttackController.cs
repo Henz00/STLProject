@@ -5,7 +5,7 @@ using UnityEngine;
 public class AttackController : MonoBehaviour
 {
     public int attackDamage = 10;
-    public float attackCooldown = 3.0f;
+    public float attackCooldown = 1.0f;
     private bool isAttacking = false;
     public Animator animator;
     
