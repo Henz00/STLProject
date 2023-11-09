@@ -17,10 +17,9 @@ public class EnemyMovement : MonoBehaviour
             MoveTowardsTarget();
         }
 
-        // Check if the enemy is hit by the player (you can replace this with your own condition)
-        if (Input.GetButtonDown("AttackButton")) // Change "Fire1" to your input or condition
+        if (Input.GetButtonDown("AttackButton")) 
         {
-            StopAllCoroutines(); // Stop any ongoing movement coroutine
+            StopAllCoroutines(); 
             isHit = true;
             StartCoroutine(ResumeMovement());
         }
