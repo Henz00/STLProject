@@ -14,8 +14,7 @@ public class AttackController : MonoBehaviour
         if (!isAttacking)
         {
             isAttacking = true;
-            // Afspil attack animation
-            GetComponent<Animation>().Play("Player_Attack");
+            
 
             target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
 
@@ -35,8 +34,15 @@ public class AttackController : MonoBehaviour
     {
         if (Input.GetButtonDown("AttackButton")) 
         {
+            animator.SetTrigger("PerformAttak");
             PerformAttack(gameObject);
+            Attack();
         }
+    }
+    void Attack()
+    {
+        animator.SetTrigger("PerformAttack");
+          
     }
     private IEnumerator AttackCooldown()
     {

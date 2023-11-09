@@ -2639,7 +2639,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetObject: {fileID: 636222483}
   moveSpeed: 5
-  waitTime: 3
+  waitTime: 2
+  animator: {fileID: 1467771743}
 --- !u!111 &1467771742
 Animation:
   m_ObjectHideFlags: 0
@@ -3111,6 +3112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 10
   attackCooldown: 1
+  animator: {fileID: 1845820150}
 --- !u!114 &1845820146
 MonoBehaviour:
   m_ObjectHideFlags: 0
