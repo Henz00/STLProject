@@ -7,7 +7,7 @@ public class AttackController : MonoBehaviour
     public int attackDamage = 10;
     public float attackCooldown = 1.0f;
     private bool isAttacking = false;
-
+    public Animator animator;
     
     public void PerformAttack(GameObject target)
     {

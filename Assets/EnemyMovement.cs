@@ -7,11 +7,13 @@ public class EnemyMovement : MonoBehaviour
     public Transform targetObject;
     public float moveSpeed = 5f;
     public float waitTime = 3f;
+    public Animator animator;
 
     private bool isHit = false;
 
     void Update()
     {
+        animator.SetFloat("Speed", moveSpeed);
         if (!isHit)
         {
             MoveTowardsTarget();
@@ -21,6 +23,7 @@ public class EnemyMovement : MonoBehaviour
         {
             StopAllCoroutines(); 
             isHit = true;
+            moveSpeed = 0;
             StartCoroutine(ResumeMovement());
         }
     }
@@ -33,6 +36,7 @@ public class EnemyMovement : MonoBehaviour
     IEnumerator ResumeMovement()
     {
         yield return new WaitForSeconds(waitTime);
+        moveSpeed = 5f;
         isHit = false;
     }
 }
