@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -126,19 +126,19 @@ TextureImporter:
       name: Sheepherder_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 2
-        width: 19
-        height: 151
+        x: 70
+        y: 236
+        width: 76
+        height: 157
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5baeb8dea45e734fb13aead7d8e0b8c
-      internalID: -1942829741
+      spriteID: 3cf5416d514821743a613a170cfa6655
+      internalID: 1054077461
       vertices: []
       indices: 
       edges: []
@@ -147,19 +147,19 @@ TextureImporter:
       name: Sheepherder_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 60
-        height: 157
+        x: 220
+        y: 236
+        width: 76
+        height: 153
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 2, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd62900d2cd7dc443b2f31992f08914e
-      internalID: -1323585682
+      spriteID: 496f31330c96b0244a39a0833d731ce4
+      internalID: -2031129277
       vertices: []
       indices: 
       edges: []
@@ -168,19 +168,19 @@ TextureImporter:
       name: Sheepherder_2
       rect:
         serializedVersion: 2
-        x: 12
-        y: 0
-        width: 78
-        height: 158
+        x: 5
+        y: 1
+        width: 141
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 2, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2779ff4c1f966347adf95c52fecdd6e
-      internalID: -1423088385
+      spriteID: a43bcba52be056945bbeeb113675db36
+      internalID: 7133602
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 3abf77e61d27ab14e8617e94f2c686ca
     internalID: 0
     vertices: []
     indices: 
@@ -196,9 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sheepherder_0: -1942829741
-      Sheepherder_1: -1323585682
-      Sheepherder_2: -1423088385
+      Sheepherder_0: 1054077461
+      Sheepherder_1: -2031129277
+      Sheepherder_2: 7133602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,9 +15,9 @@ public class AttackController : MonoBehaviour
         {
             isAttacking = true;
             // Afspil attack animation
-            GetComponent<Animation>().Play("AttackAnimation");
+            GetComponent<Animation>().Play("Player_Attack");
 
-            // target.GetComponent<Health>().TakeDamage(attackDamage); hvis vi skal bruge liv
+            target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
 
             StartCoroutine(AttackCooldown());
             
