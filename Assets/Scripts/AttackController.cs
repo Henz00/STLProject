@@ -5,21 +5,31 @@ using UnityEngine;
 public class AttackController : MonoBehaviour
 {
     public int attackDamage = 10;
-    public float attackCooldown = 1.0f;
+    public float attackCooldown = 3.0f;
     private bool isAttacking = false;
     public Animator animator;
     
-    public void PerformAttack(GameObject target)
+
+    void Update()
     {
+        if (Input.GetButtonDown("AttackButton")) 
+        {
+            animator.SetTrigger("PerformAttack");
+            Attack();
+        }
+    }
+    void Attack()
+    {
+        animator.SetTrigger("PerformAttack");
         if (!isAttacking)
         {
             isAttacking = true;
-            
 
-            target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+
+            //target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
 
             StartCoroutine(AttackCooldown());
-            
+
             void OnTriggerEnter(Collider other)
             {
                 if (other.CompareTag("Enemy"))
@@ -29,20 +39,7 @@ public class AttackController : MonoBehaviour
                 }
             }
         }
-    }
-    void Update()
-    {
-        if (Input.GetButtonDown("AttackButton")) 
-        {
-            animator.SetTrigger("PerformAttak");
-            PerformAttack(gameObject);
-            Attack();
-        }
-    }
-    void Attack()
-    {
-        animator.SetTrigger("PerformAttack");
-          
+
     }
     private IEnumerator AttackCooldown()
     {
