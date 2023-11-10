@@ -10,6 +10,7 @@ public class sheepMoving : MonoBehaviour
     public float stoppingDistance = 0.1f;
     public toggleScript enableDisable;
     private Sheep sheepState;
+    public bool goalReached;
 
     private void Start()
     {
@@ -17,15 +18,18 @@ public class sheepMoving : MonoBehaviour
     }
     void Update()
     {
-        if (!sheepState.hasBeenEaten)
+        if(goalReached == false)
         {
-            if (enableDisable != null && enableDisable.isEnabled)
+            if (!sheepState.hasBeenEaten)
             {
-                MoveToTarget(alternateTarget);
-            }
-            else
-            {
-                MoveToTarget(defaultTarget);
+                if (enableDisable != null && enableDisable.isEnabled)
+                {
+                    MoveToTarget(alternateTarget);
+                }
+                else
+                {
+                    MoveToTarget(defaultTarget);
+                }
             }
         }
     }
@@ -35,5 +39,13 @@ public class sheepMoving : MonoBehaviour
         Vector3 direction = target.position - transform.position;
         if (direction.magnitude > stoppingDistance)
             transform.Translate(direction.normalized * movementSpeed * Time.deltaTime);
+    }
+
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.CompareTag("Goal"))
+        {
+            goalReached = true;
+        }
     }
 }
