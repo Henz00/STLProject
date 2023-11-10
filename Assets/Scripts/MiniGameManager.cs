@@ -14,6 +14,7 @@ public class MiniGameManager : MonoBehaviour
     FinishLine finish;
     Sheep sheep;
     EnemyMovement wolf;
+    GameObject SheepHerder;
     GameObject GameOverMenu;
     TMP_Text GameOverMenuText;
 
@@ -22,15 +23,15 @@ public class MiniGameManager : MonoBehaviour
         finish = GameObject.Find("SheepTargetPoint").GetComponent<FinishLine>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
         wolf = GameObject.Find("Wolf").GetComponent<EnemyMovement>();
+        SheepHerder = GameObject.Find("Sheepherder");
+
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         GameOverMenuText = GameObject.Find("GameOverMenuText").GetComponent<TextMeshProUGUI>();
 
-        gameActive = true;
-        GameOverMenu.SetActive(false);
-
         sheep.SheepWasEaten += SheepHasBeenEaten;
         finish.Finished += SheepHasMadeIt;
-        
+
+        GameSetup();
     }
 
     void SheepHasBeenEaten(object sender, EventArgs e)
@@ -51,5 +52,20 @@ public class MiniGameManager : MonoBehaviour
         points = GetComponent<PointManager>().points;
         GameOverMenu.SetActive(true);
         wolf.enabled = false;
+    }
+
+    public void GameSetup()
+    {
+        Transform[] spawnpoints;
+        spawnpoints = GameObject.Find("WolfSpawnPoints").GetComponentsInChildren<Transform>();
+        wolf.gameObject.transform.position = spawnpoints[UnityEngine.Random.Range(0, 3)].position;
+
+        sheep.gameObject.transform.position = GameObject.Find("SheepSpawnPoint").GetComponent<Transform>().position;
+        SheepHerder.transform.position = GameObject.Find("PlayerSpawnPoint").GetComponent<Transform>().position;
+
+        sheep.hasBeenEaten = false;
+        wolf.enabled = true;
+        gameActive = true;
+        GameOverMenu.SetActive(false);
     }
 }
