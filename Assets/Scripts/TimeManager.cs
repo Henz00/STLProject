@@ -28,13 +28,9 @@ public class TimeManager : MonoBehaviour
                 text.text = $"Time left: {Mathf.Ceil(gameTime)}";
             }
             else
-            {
                 text.text = $"Game over!";
-            }
         } 
         else
-        {
             text.text = $"Game over!";
-        }
     }
 }

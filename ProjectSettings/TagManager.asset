@@ -7,7 +7,7 @@ TagManager:
   - Enemy
   - Weapon
   - Attack Point
-  - Goal
+  - Sheep
   layers:
   - Default
   - TransparentFX

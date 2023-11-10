@@ -6,20 +6,22 @@ using System;
 
 public class MiniGameManager : MonoBehaviour
 {
-    public event EventHandler gameFinished;
-
-    bool gameActive;
+    public bool gameActive;
     int points;
     string gameOverSuccesText = "Good job! The sheep made it!";
     string gameOverFailedText = "Oh no! The sheep didn't make it.";
 
+    FinishLine finish;
     Sheep sheep;
+    EnemyMovement wolf;
     GameObject GameOverMenu;
     TMP_Text GameOverMenuText;
 
     void Start()
     {
+        finish = GameObject.Find("SheepTargetPoint").GetComponent<FinishLine>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
+        wolf = GameObject.Find("Wolf").GetComponent<EnemyMovement>();
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         GameOverMenuText = GameObject.Find("GameOverMenuText").GetComponent<TextMeshProUGUI>();
 
@@ -27,23 +29,27 @@ public class MiniGameManager : MonoBehaviour
         GameOverMenu.SetActive(false);
 
         sheep.SheepWasEaten += SheepHasBeenEaten;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (sheep.hasBeenEaten)
-        {
-            points = GetComponent<PointManager>().points;
-            GameOverMenu.SetActive(true);
-            GameOverMenuText.text = gameOverFailedText + $"\nPoints gained: {points}";
-        }
+        finish.Finished += SheepHasMadeIt;
+        
     }
 
     void SheepHasBeenEaten(object sender, EventArgs e)
     {
-        gameActive = false;
-        Debug.Log("Is game active: " + gameActive.ToString() + "\nHas sheep been eaten: " + sheep.hasBeenEaten.ToString() + "\n" + e.ToString());
+        GameOverMenuText.text = gameOverFailedText + $"\nPoints gained: {points}";
+        FinishGame();
+    }
 
+    void SheepHasMadeIt(object sender, EventArgs e)
+    {
+        GameOverMenuText.text = gameOverSuccesText + $"\nPoints gained: {points}";
+        FinishGame();
+    }
+
+    void FinishGame()
+    {
+        gameActive = false;
+        points = GetComponent<PointManager>().points;
+        GameOverMenu.SetActive(true);
+        wolf.enabled = false;
     }
 }
