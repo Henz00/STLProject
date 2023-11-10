@@ -41,7 +41,7 @@ public class EnemyMovement : MonoBehaviour
     IEnumerator ResumeMovement()
     {
         yield return new WaitForSeconds(waitTime);
-        moveSpeed = 5f;
+        moveSpeed = 3f;
         isHit = false;
     }
 }
