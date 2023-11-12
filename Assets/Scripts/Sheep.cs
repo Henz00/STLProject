@@ -11,8 +11,7 @@ public class Sheep : MonoBehaviour
 
     void Start()
     {
-        health = 1;
-        hasBeenEaten = false;
+        Setup();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -28,5 +27,11 @@ public class Sheep : MonoBehaviour
                 SheepWasEaten?.Invoke(this, EventArgs.Empty);
             }
         }
+    }
+
+    private void Setup()
+    {
+        health = 1;
+        hasBeenEaten = false;
     }
 }
