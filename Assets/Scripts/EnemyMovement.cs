@@ -8,16 +8,18 @@ public class EnemyMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float waitTime = 3f;
     public Animator animator;
+    private GameObject sheep;
 
     private bool isHit = false;
 
     private void Start()
     {
-        targetObject = GameObject.Find("Sheep").GetComponent<Transform>();
+        sheep = GameObject.Find("Sheep");
     }
 
     void Update()
     {
+        targetObject = sheep.transform;
         animator.SetFloat("Speed", moveSpeed);
         if (!isHit)
         {

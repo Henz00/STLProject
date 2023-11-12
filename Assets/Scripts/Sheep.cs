@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class Sheep : MonoBehaviour
 {
+    private int health;
     public bool hasBeenEaten;
     public event EventHandler SheepWasEaten;
 
     void Start()
     {
+        health = 1;
         hasBeenEaten = false;
     }
 
@@ -17,8 +19,14 @@ public class Sheep : MonoBehaviour
     {
         if (collision.collider.CompareTag("Enemy"))
         {
-            hasBeenEaten = true;
-            SheepWasEaten?.Invoke(this, EventArgs.Empty);
+            health--;
+            Debug.Log(health.ToString());
+
+            if(health <= 0)
+            {
+                hasBeenEaten = true;
+                SheepWasEaten?.Invoke(this, EventArgs.Empty);
+            }
         }
     }
 }

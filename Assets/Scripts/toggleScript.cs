@@ -6,6 +6,7 @@ public class toggleScript : MonoBehaviour
 {
     public float toggleTime = 2f; // Time in seconds for each toggle
     public bool isEnabled = true; // Initial state
+    float time;
 
     void Start()
     {
@@ -14,7 +15,16 @@ public class toggleScript : MonoBehaviour
 
     void ToggleVisibility()
     {
-        isEnabled = !isEnabled;
-        gameObject.SetActive(isEnabled);
+        time = Time.time;
+        if (Time.deltaTime > time + 5)
+        {
+            isEnabled = !isEnabled;
+            gameObject.SetActive(isEnabled);
+        }
+        else
+        {
+            isEnabled = !isEnabled;
+            gameObject.SetActive(isEnabled);
+        }
     }
 }
