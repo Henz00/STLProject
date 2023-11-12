@@ -8,6 +8,9 @@ TagManager:
   - Weapon
   - Attack Point
   - Goal
+  - Sheep
+  - Grass
+  - Road
   layers:
   - Default
   - TransparentFX
