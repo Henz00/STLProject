@@ -21,10 +21,9 @@ public class EnemyMovement : MonoBehaviour
     {
         targetObject = sheep.transform;
         animator.SetFloat("Speed", moveSpeed);
+
         if (!isHit)
-        {
             MoveTowardsTarget();
-        }
 
         if (Input.GetButtonDown("AttackButton")) 
         {

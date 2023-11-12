@@ -9,6 +9,7 @@ public class MiniGameManager : MonoBehaviour
     public bool gameActive;
     int points;
 
+    public event EventHandler GameWonEvent;
     public event EventHandler StartGame;
     public event EventHandler GameOver;
     public event EventHandler Setup;
@@ -27,24 +28,21 @@ public class MiniGameManager : MonoBehaviour
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         SheepHerder = GameObject.Find("Sheepherder");
 
-        sheep.SheepWasEaten += GameLost;
-        finish.Finished += GameWon;
-        Setup += GameSetup;
+        SetupEvents();
+        Setup?.Invoke(this, EventArgs.Empty);
     }
 
     void GameLost(object sender, EventArgs e)
     {
         GameOver?.Invoke(this, EventArgs.Empty);
-        FinishGame();
     }
 
     void GameWon(object sender, EventArgs e)
     {
-        GameOver?.Invoke(this, EventArgs.Empty);
-        FinishGame();
+        GameWonEvent?.Invoke(this, EventArgs.Empty);
     }
 
-    void FinishGame()
+    void FinishGame(object sender, EventArgs e)
     {
         gameActive = false;
         points = GetComponent<PointManager>().points;
@@ -59,5 +57,20 @@ public class MiniGameManager : MonoBehaviour
         SheepHerder.transform.position = GameObject.Find("PlayerSpawnPoint").GetComponent<Transform>().position;
 
         StartGame?.Invoke(this, EventArgs.Empty);
+    }
+
+    //Method for setting up events, all events should lead to/start from here. Having all events be tied to the MiniGameManager class makes future referencing in the code much cleaner
+    void SetupEvents()
+    {
+        //Chaining together the sheep being eaten event, and then starting the gamelost event from here (which all other classes should subscribe to if they need to do something when gamelost event happens)
+        sheep.SheepWasEaten += GameLost;
+        GameOver += FinishGame;
+
+        //Chaining together the sheep reaching the finish line event
+        finish.Finished += GameWon;
+        GameWonEvent += FinishGame;
+
+        //The event for setting up the game for play
+        Setup += GameSetup;
     }
 }

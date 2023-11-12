@@ -36,6 +36,6 @@ public class sheepMoving : MonoBehaviour
     {
         Vector3 direction = target.position - transform.position;
         if (direction.magnitude > stoppingDistance)
-            transform.Translate(direction.normalized * movementSpeed * Time.deltaTime);
+            transform.Translate(movementSpeed * Time.deltaTime * direction.normalized);
     }
 }
