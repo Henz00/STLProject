@@ -1,10 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Transform targetObject;
+    MiniGameManager miniGameManager;
+
     public float moveSpeed = 5f;
     public float waitTime = 3f;
     public Animator animator;
@@ -12,31 +14,34 @@ public class EnemyMovement : MonoBehaviour
 
     private bool isHit = false;
 
-    private void Start()
+    void Start()
     {
+        miniGameManager.HitEnemyEvent += GotHit;
         sheep = GameObject.Find("Sheep");
     }
 
     void Update()
     {
-        targetObject = sheep.transform;
         animator.SetFloat("Speed", moveSpeed);
 
         if (!isHit)
-            MoveTowardsTarget();
+            MoveToTarget(GameObject.Find("Sheep").GetComponent<Transform>());
 
-        if (Input.GetButtonDown("AttackButton")) 
-        {
-            StopAllCoroutines(); 
-            isHit = true;
-            moveSpeed = 0;
-            StartCoroutine(ResumeMovement());
-        }
     }
 
-    void MoveTowardsTarget()
+    void MoveToTarget(Transform target)
     {
-        transform.position = Vector3.MoveTowards(transform.position, targetObject.position, moveSpeed * Time.deltaTime);
+        Vector3 direction = target.position - transform.position;
+        if (direction.magnitude > 0.1f)
+            transform.Translate(moveSpeed * Time.deltaTime * direction.normalized);
+    }
+
+    void GotHit(object sender, EventArgs e)
+    {
+        StopAllCoroutines();
+        isHit = true;
+        moveSpeed = 0;
+        StartCoroutine(ResumeMovement());
     }
 
     IEnumerator ResumeMovement()

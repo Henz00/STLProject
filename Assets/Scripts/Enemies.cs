@@ -19,7 +19,7 @@ public class Enemies : MonoBehaviour
         foreach(GameObject child in gameObject.GetComponentInChildren<Transform>().parent)
         {
             child.transform.position = spawnpoints[Random.Range(0,spawnpoints.Length - 1)].transform.position;
-            child.gameObject.GetComponent<EnemyMovement>().enabled = true;
+            child.GetComponent<EnemyMovement>().enabled = true;
         }
     }
 }

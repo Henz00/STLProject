@@ -11,9 +11,11 @@ public class MiniGameManager : MonoBehaviour
 
     public event EventHandler GameWonEvent;
     public event EventHandler StartGame;
-    public event EventHandler GameOver;
+    public event EventHandler GameOverEvent;
     public event EventHandler Setup;
+    public event EventHandler HitEnemyEvent;
 
+    AttackController playerAttack;
     GameObject GameOverMenu;
     FinishLine finish;
     Sheep sheep;
@@ -24,17 +26,19 @@ public class MiniGameManager : MonoBehaviour
     {
         finish = GameObject.Find("SheepTargetPoint").GetComponent<FinishLine>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
+        playerAttack = GameObject.Find("Sheepherder").GetComponent<AttackController>();
 
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         SheepHerder = GameObject.Find("Sheepherder");
 
         SetupEvents();
+        Setup += GameSetup;
         Setup?.Invoke(this, EventArgs.Empty);
     }
 
     void GameLost(object sender, EventArgs e)
     {
-        GameOver?.Invoke(this, EventArgs.Empty);
+        GameOverEvent?.Invoke(this, EventArgs.Empty);
     }
 
     void GameWon(object sender, EventArgs e)
@@ -47,6 +51,11 @@ public class MiniGameManager : MonoBehaviour
         gameActive = false;
         points = GetComponent<PointManager>().points;
         GameOverMenu.SetActive(true);
+    }
+
+    void HitEnemy(object sender, EventArgs e)
+    {
+        HitEnemyEvent?.Invoke(this, EventArgs.Empty);
     }
 
     public void GameSetup(object sender, EventArgs e)
@@ -64,13 +73,13 @@ public class MiniGameManager : MonoBehaviour
     {
         //Chaining together the sheep being eaten event, and then starting the gamelost event from here (which all other classes should subscribe to if they need to do something when gamelost event happens)
         sheep.SheepWasEaten += GameLost;
-        GameOver += FinishGame;
+        GameOverEvent += FinishGame;
 
         //Chaining together the sheep reaching the finish line event
         finish.Finished += GameWon;
         GameWonEvent += FinishGame;
 
-        //The event for setting up the game for play
-        Setup += GameSetup;
+        //Event for when player hits an enemy, use this event for UI changes, unit behaviour
+        playerAttack.HitEnemy += HitEnemy;
     }
 }

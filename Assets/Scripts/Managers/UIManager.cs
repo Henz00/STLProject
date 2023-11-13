@@ -19,7 +19,7 @@ public class UIManager : MonoBehaviour
         GameOverMenuText = GameObject.Find("GameOverMenuText").GetComponent<TextMeshProUGUI>();
         pointManager = GameObject.Find("GameManager").GetComponent<PointManager>();
 
-        miniGameManager.GameOver += UpdateTextGameOver;
+        miniGameManager.GameOverEvent += UpdateTextGameOver;
         miniGameManager.GameWonEvent += UpdateTextGameWon;
     }
 
