@@ -7,7 +7,6 @@ using UnityEngine;
 public class FinishLine : MonoBehaviour
 {
 
-    public event EventHandler Finished;
     MiniGameManager miniGameManager;
 
     void Awake()
