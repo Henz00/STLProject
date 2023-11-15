@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,1426 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ulv Pixelated_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 705
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ded37f0441ff248942b7047bd944e1
+      internalID: 1461829085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 742
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cc705dab3e63b49914c407e8db6bac
+      internalID: 678119529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_2
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 703
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6bbae5e23fe48469c2ed40b59ec693
+      internalID: -1868779277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_3
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 703
+        width: 74
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c5cc824a29d994f9a2e1b6a859a994
+      internalID: -2097373378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 739
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9879e8d68da7264b98c8908e90f65ae
+      internalID: 113808470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 700
+        width: 74
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bc4473a1d137c4e9b819cdaaa681c3
+      internalID: 774862136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_6
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 700
+        width: 76
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea229eb2d2b7dee4087d10511e929ee7
+      internalID: -1278730286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_7
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 681
+        width: 48
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db3d02a8a4661641a0b067d838cd7fa
+      internalID: -36636859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 612
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35465053164b7474e80660577225fdd8
+      internalID: -933471945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_9
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 610
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cadfe6175b3bf14ea994bee3fdbeb53
+      internalID: -1510303448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 607
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cc5fbecb988964084093f521ce161a
+      internalID: 1025296377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_11
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 605
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8e65c38fabd0c4f8a31726c6f6f437
+      internalID: -578899758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 610
+        width: 68
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ec825e39bed7d409c61333371e5dfc
+      internalID: 777899175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 637
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3940ed5d4f88e134db30adb1d18cc2f8
+      internalID: 1583113295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 512
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062d4480b03064e4bad8e84edc503031
+      internalID: 873271865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 512
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aaacc6bafe0c54b8fc65c7862d957a
+      internalID: 696042812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_16
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 510
+        width: 78
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ce44505b7cdd744a14ae835c7778e4
+      internalID: -494636621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 515
+        width: 94
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38053c4ff0f28446a257227c3119bcf
+      internalID: 1597420558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_18
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 524
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d82e7cc57d700498ef2f12b6ee4ece
+      internalID: -2102414996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_19
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 493
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c5f35507eeafd478d1ecd11830e0a8
+      internalID: -582232440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_20
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 493
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81e14598af2b274bb2a21ca462dc8e2
+      internalID: -1769799263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 493
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6409e1558c53c1849bd8497e254bf23a
+      internalID: 874472729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_22
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 493
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716e6c79063c9df429f6b693cde177e2
+      internalID: -1298611739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_23
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 488
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931857f925032314a96d3a35e9af7195
+      internalID: 888311427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 412
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdb700264c74824ba27ec891aba335d
+      internalID: 319499908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 414
+        width: 96
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c868eacee297a5147bbf3df768c21a35
+      internalID: 1410173471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_26
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 417
+        width: 82
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6640e6bb822c574cb9c27086de2a359
+      internalID: 563943639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_27
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 417
+        width: 76
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40c298eb6f66b4488801d388f20c1ef
+      internalID: -197703137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_28
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 444
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29934fc00ea865d42a4cc941119b0430
+      internalID: 133959217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_29
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 307
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dda0c1068bb95844b313aae81095e9d
+      internalID: -317786513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 309
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de8324afeba142458d1fbf322105ba7
+      internalID: -337287716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 312
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2a36c8e9e70b64baccc612cea4bd8b
+      internalID: 1401325480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_32
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 317
+        width: 104
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa902ac7be455149b761f80eca8ade1
+      internalID: -922514012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_33
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 302
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7726d422d40507418cf12b7c2d2d073
+      internalID: -1417701695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_34
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 312
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a831262939b834ab880031dae96ca4
+      internalID: 824996501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_35
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 290
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8e3586920521b47a11e9d29900a11b
+      internalID: 1432395884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_36
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 199
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eae5a0095faadb43960d55221a6f6d1
+      internalID: 33685418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_37
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 202
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aa2d33945a2d7468a71737ec541986
+      internalID: 2020577312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_38
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 204
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe8c7f1c58a57a4bad13293fc8e01ce
+      internalID: -1888712857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_39
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 194
+        width: 78
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd7d3365e8107a418605eae15c35023
+      internalID: 865620807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_40
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 199
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bddbfe926dd0d4c840e40293dc28c1
+      internalID: -1846898434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_41
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 207
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53ee1f2209e3f94f83b68da188ceea9
+      internalID: 567156331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_42
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 231
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0e04fd9f771ee43b2e6ab9ad36ea67
+      internalID: 60150183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_43
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 97
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3fd4461f572cd4cbea97119db53776
+      internalID: -1965471090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_44
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 92
+        width: 66
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be70fdbec474caa48abeacc58275e4ac
+      internalID: 245333131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_45
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 99
+        width: 78
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79c3cecc950f69458722d88d0b297e5
+      internalID: -1785381050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_46
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 97
+        width: 68
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcce5eb823f964049b94e8679bae588a
+      internalID: 280819161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_47
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 97
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d01be6b7bbb3e9468bdf988064d0e85
+      internalID: 1245792764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_48
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 97
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2811145f3aca2384eba5692588755be6
+      internalID: -422444009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_49
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 121
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ad25f590e733d4586dc5e3b8b8202b
+      internalID: 1812046757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_50
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 138
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285cdcb4a6e424e4ebd14847d4d90807
+      internalID: -1971253125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_51
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 138
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a59bb3d6fbfc0408b529e69dbf7a7c
+      internalID: -1716964275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_52
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 119
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d2c3d23fbe06845b8d7afd7909a74d
+      internalID: 2085532308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_53
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4feb7518bf332746bbe2b8ccc9d3405
+      internalID: 666728661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_54
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 9
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b1735274628dd438469285cf59548a
+      internalID: 1826006163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_55
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 9
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32890b0a4042df94b840db2042042553
+      internalID: 2022486104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_56
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 9
+        width: 66
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97aa81333cc35a84da1ef8aca77bb43c
+      internalID: 536681053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_57
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 33
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347f4869d9c5f404f92c2e1accc7d295
+      internalID: -1469164155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 50
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dafc0cf9aff53448b415ce698e71fe
+      internalID: -2117782577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_59
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 48
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d718de857c3f648a18e6f87f1731fd
+      internalID: 442431071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_60
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 33
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e13cf5b8ca98ea4a80c890ff69afbde
+      internalID: 1037652412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_61
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 35
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c468c564445fe40988c8e4fc84a15f
+      internalID: 947706333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_62
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 33
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c086df73f95a04e87a1e53cc12eaa6
+      internalID: 327054404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ulv Pixelated_63
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 427
+        width: 74
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b27218a2dcf17a41af8465ec06a627c
+      internalID: 113535702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 03a073eececf59f4e9465d1c9b6b811c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ulv Pixelated_0: 1461829085
+      Ulv Pixelated_1: 678119529
+      Ulv Pixelated_10: 1025296377
+      Ulv Pixelated_11: -578899758
+      Ulv Pixelated_12: 777899175
+      Ulv Pixelated_13: 1583113295
+      Ulv Pixelated_14: 873271865
+      Ulv Pixelated_15: 696042812
+      Ulv Pixelated_16: -494636621
+      Ulv Pixelated_17: 1597420558
+      Ulv Pixelated_18: -2102414996
+      Ulv Pixelated_19: -582232440
+      Ulv Pixelated_2: -1868779277
+      Ulv Pixelated_20: -1769799263
+      Ulv Pixelated_21: 874472729
+      Ulv Pixelated_22: -1298611739
+      Ulv Pixelated_23: 888311427
+      Ulv Pixelated_24: 319499908
+      Ulv Pixelated_25: 1410173471
+      Ulv Pixelated_26: 563943639
+      Ulv Pixelated_27: -197703137
+      Ulv Pixelated_28: 133959217
+      Ulv Pixelated_29: -317786513
+      Ulv Pixelated_3: -2097373378
+      Ulv Pixelated_30: -337287716
+      Ulv Pixelated_31: 1401325480
+      Ulv Pixelated_32: -922514012
+      Ulv Pixelated_33: -1417701695
+      Ulv Pixelated_34: 824996501
+      Ulv Pixelated_35: 1432395884
+      Ulv Pixelated_36: 33685418
+      Ulv Pixelated_37: 2020577312
+      Ulv Pixelated_38: -1888712857
+      Ulv Pixelated_39: 865620807
+      Ulv Pixelated_4: 113808470
+      Ulv Pixelated_40: -1846898434
+      Ulv Pixelated_41: 567156331
+      Ulv Pixelated_42: 60150183
+      Ulv Pixelated_43: -1965471090
+      Ulv Pixelated_44: 245333131
+      Ulv Pixelated_45: -1785381050
+      Ulv Pixelated_46: 280819161
+      Ulv Pixelated_47: 1245792764
+      Ulv Pixelated_48: -422444009
+      Ulv Pixelated_49: 1812046757
+      Ulv Pixelated_5: 774862136
+      Ulv Pixelated_50: -1971253125
+      Ulv Pixelated_51: -1716964275
+      Ulv Pixelated_52: 2085532308
+      Ulv Pixelated_53: 666728661
+      Ulv Pixelated_54: 1826006163
+      Ulv Pixelated_55: 2022486104
+      Ulv Pixelated_56: 536681053
+      Ulv Pixelated_57: -1469164155
+      Ulv Pixelated_58: -2117782577
+      Ulv Pixelated_59: 442431071
+      Ulv Pixelated_6: -1278730286
+      Ulv Pixelated_60: 1037652412
+      Ulv Pixelated_61: 947706333
+      Ulv Pixelated_62: 327054404
+      Ulv Pixelated_63: 113535702
+      Ulv Pixelated_7: -36636859
+      Ulv Pixelated_8: -933471945
+      Ulv Pixelated_9: -1510303448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
