@@ -39,12 +39,12 @@ public class MiniGameManager : MonoBehaviour
 
     public void GameLost(object sender, EventArgs e)
     {
-        GameOverEvent?.Invoke(this, e);
+        GameOverEvent?.Invoke(sender, e);
     }
 
     public void GameWon(object sender, EventArgs e)
     {
-        GameWonEvent?.Invoke(this, e);
+        GameWonEvent?.Invoke(sender, e);
     }
 
     void FinishGame(object sender, EventArgs e)
@@ -56,7 +56,7 @@ public class MiniGameManager : MonoBehaviour
 
     void HitEnemy(object sender, EventArgs e)
     {
-        HitEnemyEvent?.Invoke(this, EventArgs.Empty);
+        HitEnemyEvent?.Invoke(sender, e);
     }
 
     public void GameSetup(object sender, EventArgs e)
@@ -66,7 +66,7 @@ public class MiniGameManager : MonoBehaviour
         sheep.gameObject.transform.position = GameObject.Find("SheepSpawnPoint").GetComponent<Transform>().position;
         SheepHerder.transform.position = GameObject.Find("PlayerSpawnPoint").GetComponent<Transform>().position;
 
-        StartGame?.Invoke(this, EventArgs.Empty);
+        StartGame?.Invoke(sender, e);
     }
 
     //Method for setting up events, all events should lead to/start from here. Having all events be tied to the MiniGameManager class makes future referencing in the code much cleaner

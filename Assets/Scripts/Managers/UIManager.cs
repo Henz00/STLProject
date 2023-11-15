@@ -35,5 +35,19 @@ public class UIManager : MonoBehaviour
         GameOverMenuText.text = gameOverSuccesText + $"\nPoints gained: {pointManager.points}";
     }
 
+    public void RestartLevel()
+    {
+        miniGameManager.GameSetup(this, EventArgs.Empty);
+    }
+
+    public void Continue()
+    {
+
+    }
+
+    public void ExitGame()
+    {
+
+    }
 
 }
