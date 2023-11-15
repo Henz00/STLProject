@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,2130 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sheep Pixelated_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6a7f2103fc7144cbb80c21c7f4912e
+      internalID: 171185908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bc83e4138d0c14287311ed4d906f9d
+      internalID: -1611279545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ffbfb2ed20034409e35f2fac0b1f86
+      internalID: -822757943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0af39d8ac03f445bd90ff7d789dc6b
+      internalID: 981595804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142d0950fe849e64ea7b5799da53560d
+      internalID: 1454548393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c5754cd168bfc45a379c3fedb9748c
+      internalID: 181457647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff9816e97c66834a86dd7b18ab80631
+      internalID: -1183923008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a9573626171cd4e8d01adb7da49dd4
+      internalID: -1506901491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78549d5fe90c7724fa9dcb9e576d0f50
+      internalID: 198309667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f0e8ade1c3dcb747ac44426696928b0
+      internalID: 279687041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4794a7fa924a67341a7fcaf10487b346
+      internalID: 1992228328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12733619fa1c6fb46883d0a41ad6aea4
+      internalID: 111243981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed3a7c2fe572bc4897c8f7794b2abdf
+      internalID: 24660284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf3ec268ef988448b1dba1328d61e5d
+      internalID: -1944916256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c405793dfc581e48babdd0e83961128
+      internalID: -1392643696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618b866a058bbbe44916a6038406819f
+      internalID: -217264462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab783ad8569f77c4f92be14d3155e837
+      internalID: -169163081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ffb3625a1124a47b394f134fd7fb58
+      internalID: 1160619427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec433b768512fd4f87f97613007baa9
+      internalID: 261071196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_19
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333964338bc4d37418ab4a86e5c001aa
+      internalID: 1621033252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_20
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c867f2d9e0e96e44c9cc6bb412dbe307
+      internalID: -482402337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dba6cf14c4b3b64da488d1560d42e4c
+      internalID: -406580506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6780406ce0f9545b8e79a8977de405
+      internalID: 240030577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2a39840c4dc574c9f68a8681eef770
+      internalID: 867596795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42672e7d5dc702b4b906a643b00eed52
+      internalID: 1342660629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647a9e7c5ce82c546b8c78fdf585e3d6
+      internalID: -1414441094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fada85488be034eb6715ecaa3af5b2
+      internalID: -96274669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1b356cd4843b5449da828dc369ef86
+      internalID: 372229645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_28
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17564dc5906fdb94ea5c818e7abbf4b5
+      internalID: -1885309659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_29
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37daf8a96b3fda8449c60442b5241155
+      internalID: 640745982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb35277f00ca746a938023078d395f
+      internalID: -603337236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_31
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a042f1ad3d517d499e5f9a63cd50187
+      internalID: 99566956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872843b698a90dd42a484dd4df5465ac
+      internalID: -1920586994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1effa886f5f3f41a3449c6abdb3e5e
+      internalID: -265196589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_34
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26e563534e513f4e95e809548555468
+      internalID: 1396985982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eecbd40b987af24d92a062cfc462161
+      internalID: -1410190094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8fe3228e418714f8ab77a9cda17b06
+      internalID: -1747973123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_37
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802660327bb3c0e4b93a207c20d1ce9f
+      internalID: -544665174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76dadacba3d4044aa7e6fb76673edc6
+      internalID: 1119893936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716898b64fe319a458cb3d94b5b54d15
+      internalID: -589613435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226c150a0819b294d87162eb272296c6
+      internalID: 396049793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34284b902dc3f7945ae89f896f87ec23
+      internalID: 1840905842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2822026506937428e84dd41b4b3c79
+      internalID: 720034876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305d301bd574e5f43bf1b38eede9cbf8
+      internalID: 2098419027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_44
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36db506db67f97e4590be6c7f5b5dc6e
+      internalID: 452506506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_45
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64d182a7fa2b944fa89f9674ba4bd1a
+      internalID: -275532453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2236dd6d205914d93d6c456943f7fc
+      internalID: -998224352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_47
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d73bd7af4a59748b81697b45c4f973
+      internalID: -55841202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429ef6880278da043b0a129e3adf98b5
+      internalID: 1817124808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf43f5a44b967147a2f2695ad972e35
+      internalID: 176935267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f09dbf49fb374993bacaf8441029e
+      internalID: -787956295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c8099b7c6784a4d811fd60847aab7d
+      internalID: 1857436784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7edec0ef0cdfb45a0d0b156cd2dd3c
+      internalID: 1035012906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_53
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f8f24d9260b324d93ab5d9f9ca8080
+      internalID: 904248903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c59141b48b16374782e55eff26c0ddd
+      internalID: 1852168989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9919cac9357edfc439df9326940e753f
+      internalID: 1524177120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_56
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1471b613a7005847a7419bc41f6b078
+      internalID: 451574592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_57
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088fb1f845f69de41be54783fbbddba5
+      internalID: 486887374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_58
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411abf4d1732a104fa8da3fedeb7c1eb
+      internalID: -1318149205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_59
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c56ec95c58e94479fccc644f7a463e
+      internalID: 584096061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575254e4039576b4286e10796c9c9f53
+      internalID: 528797253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91550e48b47c8546893aa8bed9f83cf
+      internalID: 871711614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5ff3a8e154a0f4b8eae7e3b3ecd3b4
+      internalID: -1085169018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_63
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e93b214d1ccb40a12c4e5bbdef639
+      internalID: 2001236192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_64
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1c8807e6703f74c9798bd1ad3b5bc3
+      internalID: 2062749249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_65
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c662ccb9752fb064c93b2c2d99129ee0
+      internalID: 407331982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792353e942572c94cbef2488245f8131
+      internalID: 404613169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_67
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1abe4f5907f6014982eb5222e9fbb8e
+      internalID: 1432775968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_68
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030d699d9bc6f7c49bf867bd01db9ce8
+      internalID: 1018329484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_69
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d040ab461a2faa4581d497e36946b25
+      internalID: -2138852970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_70
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bb3c3e9e28e74419422211bf94a531
+      internalID: 410630259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_71
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32ffce5beb22cb40a28ce7c2a0db49c
+      internalID: -1696235430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3f205249432a3468f9fd3f646c0059
+      internalID: 496782473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_73
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a53e29362612e74f82d740482b5c9c3
+      internalID: -813628627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77399346b647524693437a71c17bf05
+      internalID: 432172943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_75
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15667633a7ac27347b6d013c0b7d95dc
+      internalID: 1413434796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_76
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02214f7d7aef3a84ca2114bacb555fb7
+      internalID: 1614628919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_77
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abdfadcade202b40b416d31dd017a46
+      internalID: -135084638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_78
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0db3a7df080a945916e68413195ed2
+      internalID: -967297989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_79
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20c343dd01a2b941aeb2affdada9a8f
+      internalID: 484094332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_80
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab94ed233b9fc19459b5524c8cc4cbf1
+      internalID: -1075145168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_81
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f45f8bc603c4f44b321f1a493a086c
+      internalID: -886535580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_82
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b3e14d405b7c8469cee02b62aa084c
+      internalID: -1107333152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_83
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7827a77982e124283ea8389e722c80
+      internalID: -996758460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_84
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6103721a995e248ba2a7900ebab23f
+      internalID: 691435021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_85
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86017b91a0d56ad44b77b77c2b384b51
+      internalID: -1177009756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_86
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2153774203d72d84497477fb97393e6c
+      internalID: 1286317239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_87
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5126a8c40ab2248869d1ceccf257d1
+      internalID: -1171887859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_88
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57800f1f2d00ec3409dfa1e2cbcebe12
+      internalID: 377029207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_89
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd1d2020ce2d564e96d9938644944a3
+      internalID: 658690969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_90
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f806655396348a94db585d6c3b6ae15b
+      internalID: -286007648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_91
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbd5d14062dddb4583612f2abe35d68
+      internalID: -897536018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_92
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac31681a447ee314b887480c0eb6ae04
+      internalID: 1779705441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_93
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934a83940118ca849ae76dcd87cd7e89
+      internalID: -1909419392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_94
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe2b818e49a02041bd86afc0847c796
+      internalID: -383799324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated_95
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e5d24aded86e54baeac3fed387b3aa
+      internalID: -1818673930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5989f94e0379f4245942036fc8b2e2d3
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sheep Pixelated_0: 171185908
+      Sheep Pixelated_1: -1611279545
+      Sheep Pixelated_10: 1992228328
+      Sheep Pixelated_11: 111243981
+      Sheep Pixelated_12: 24660284
+      Sheep Pixelated_13: -1944916256
+      Sheep Pixelated_14: -1392643696
+      Sheep Pixelated_15: -217264462
+      Sheep Pixelated_16: -169163081
+      Sheep Pixelated_17: 1160619427
+      Sheep Pixelated_18: 261071196
+      Sheep Pixelated_19: 1621033252
+      Sheep Pixelated_2: -822757943
+      Sheep Pixelated_20: -482402337
+      Sheep Pixelated_21: -406580506
+      Sheep Pixelated_22: 240030577
+      Sheep Pixelated_23: 867596795
+      Sheep Pixelated_24: 1342660629
+      Sheep Pixelated_25: -1414441094
+      Sheep Pixelated_26: -96274669
+      Sheep Pixelated_27: 372229645
+      Sheep Pixelated_28: -1885309659
+      Sheep Pixelated_29: 640745982
+      Sheep Pixelated_3: 981595804
+      Sheep Pixelated_30: -603337236
+      Sheep Pixelated_31: 99566956
+      Sheep Pixelated_32: -1920586994
+      Sheep Pixelated_33: -265196589
+      Sheep Pixelated_34: 1396985982
+      Sheep Pixelated_35: -1410190094
+      Sheep Pixelated_36: -1747973123
+      Sheep Pixelated_37: -544665174
+      Sheep Pixelated_38: 1119893936
+      Sheep Pixelated_39: -589613435
+      Sheep Pixelated_4: 1454548393
+      Sheep Pixelated_40: 396049793
+      Sheep Pixelated_41: 1840905842
+      Sheep Pixelated_42: 720034876
+      Sheep Pixelated_43: 2098419027
+      Sheep Pixelated_44: 452506506
+      Sheep Pixelated_45: -275532453
+      Sheep Pixelated_46: -998224352
+      Sheep Pixelated_47: -55841202
+      Sheep Pixelated_48: 1817124808
+      Sheep Pixelated_49: 176935267
+      Sheep Pixelated_5: 181457647
+      Sheep Pixelated_50: -787956295
+      Sheep Pixelated_51: 1857436784
+      Sheep Pixelated_52: 1035012906
+      Sheep Pixelated_53: 904248903
+      Sheep Pixelated_54: 1852168989
+      Sheep Pixelated_55: 1524177120
+      Sheep Pixelated_56: 451574592
+      Sheep Pixelated_57: 486887374
+      Sheep Pixelated_58: -1318149205
+      Sheep Pixelated_59: 584096061
+      Sheep Pixelated_6: -1183923008
+      Sheep Pixelated_60: 528797253
+      Sheep Pixelated_61: 871711614
+      Sheep Pixelated_62: -1085169018
+      Sheep Pixelated_63: 2001236192
+      Sheep Pixelated_64: 2062749249
+      Sheep Pixelated_65: 407331982
+      Sheep Pixelated_66: 404613169
+      Sheep Pixelated_67: 1432775968
+      Sheep Pixelated_68: 1018329484
+      Sheep Pixelated_69: -2138852970
+      Sheep Pixelated_7: -1506901491
+      Sheep Pixelated_70: 410630259
+      Sheep Pixelated_71: -1696235430
+      Sheep Pixelated_72: 496782473
+      Sheep Pixelated_73: -813628627
+      Sheep Pixelated_74: 432172943
+      Sheep Pixelated_75: 1413434796
+      Sheep Pixelated_76: 1614628919
+      Sheep Pixelated_77: -135084638
+      Sheep Pixelated_78: -967297989
+      Sheep Pixelated_79: 484094332
+      Sheep Pixelated_8: 198309667
+      Sheep Pixelated_80: -1075145168
+      Sheep Pixelated_81: -886535580
+      Sheep Pixelated_82: -1107333152
+      Sheep Pixelated_83: -996758460
+      Sheep Pixelated_84: 691435021
+      Sheep Pixelated_85: -1177009756
+      Sheep Pixelated_86: 1286317239
+      Sheep Pixelated_87: -1171887859
+      Sheep Pixelated_88: 377029207
+      Sheep Pixelated_89: 658690969
+      Sheep Pixelated_9: 279687041
+      Sheep Pixelated_90: -286007648
+      Sheep Pixelated_91: -897536018
+      Sheep Pixelated_92: 1779705441
+      Sheep Pixelated_93: -1909419392
+      Sheep Pixelated_94: -383799324
+      Sheep Pixelated_95: -1818673930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
