@@ -29,7 +29,7 @@ public class AttackController : MonoBehaviour
         Vector2 direction = enemy.transform.position - gameObject.transform.position;
         animator.SetTrigger("PerformAttack");
         enemy.GetComponent<EnemyMovement>().enabled = false;
-        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 100, ForceMode2D.Force);
+        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 10, ForceMode2D.Impulse);
         StartCoroutine(StunTimer());
     }
 
@@ -37,7 +37,7 @@ public class AttackController : MonoBehaviour
     {
         bool isClose;
 
-        if (Vector3.Distance(enemy.position, gameObject.transform.position) < 40f)
+        if (Vector3.Distance(enemy.position, gameObject.transform.position) < 4f)
             isClose = true;
         else
             isClose = false;

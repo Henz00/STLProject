@@ -26,7 +26,6 @@ public class MiniGameManager : MonoBehaviour
         finish = GameObject.Find("SheepTargetPoint").GetComponent<FinishLine>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
         playerAttack = GameObject.Find("Sheepherder").GetComponent<AttackController>();
-
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         SheepHerder = GameObject.Find("Sheepherder");
     }
@@ -52,11 +51,6 @@ public class MiniGameManager : MonoBehaviour
         gameActive = false;
         points = GetComponent<PointManager>().points;
         GameOverMenu.SetActive(true);
-    }
-
-    void HitEnemy(object sender, EventArgs e)
-    {
-        HitEnemyEvent?.Invoke(sender, e);
     }
 
     public void GameSetup(object sender, EventArgs e)
