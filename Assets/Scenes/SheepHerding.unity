@@ -288,6 +288,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1864164043}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &101942775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 101942776}
+  - component: {fileID: 101942777}
+  m_Layer: 0
+  m_Name: WolfPack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &101942776
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101942775}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.3468115, y: 0.78607243, z: -1.0175648}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1467771738}
+  m_Father: {fileID: 1388730199}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &101942777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101942775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0db6b169c70e040a6ba1eb124fbea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &295804193
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2256,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1701481472}
-  - {fileID: 1467771738}
+  - {fileID: 101942776}
   - {fileID: 1845820142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2468,7 +2513,7 @@ GameObject:
   - component: {fileID: 1467771741}
   - component: {fileID: 1467771743}
   - component: {fileID: 1467771742}
-  - component: {fileID: 1467771744}
+  - component: {fileID: 1467771745}
   m_Layer: 0
   m_Name: Wolf
   m_TagString: Enemy
@@ -2609,12 +2654,12 @@ Transform:
   m_GameObject: {fileID: 1467771734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.18, y: 9.5, z: 0}
+  m_LocalPosition: {x: 5.833189, y: 8.713927, z: 1.0175648}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1668834461}
-  m_Father: {fileID: 1388730199}
+  m_Father: {fileID: 101942776}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1467771740
 MonoBehaviour:
@@ -2641,7 +2686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a5035bb1dffcf24f891c367c35a0664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
+  moveSpeed: 1
   waitTime: 2
   animator: {fileID: 1467771743}
 --- !u!111 &1467771742
@@ -2680,7 +2725,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1467771744
+--- !u!114 &1467771745
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2689,7 +2734,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1467771734}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f0db6b169c70e040a6ba1eb124fbea0, type: 3}
+  m_Script: {fileID: 11500000, guid: 77312571214b76e4f80e7e7fabf57ccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1478083450

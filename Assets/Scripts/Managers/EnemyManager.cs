@@ -22,10 +22,10 @@ public class EnemyManager : MonoBehaviour
         Transform[] spawnpoints;
         spawnpoints = GameObject.Find("WolfSpawnPoints").GetComponentsInChildren<Transform>();
 
-        foreach (GameObject child in gameObject.GetComponentInChildren<Transform>().parent)
+        foreach (Transform child in gameObject.GetComponentInChildren<Wolf>().gameObject.transform)
         {
-            child.transform.position = spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length - 1)].transform.position;
-            child.GetComponent<EnemyMovement>().enabled = true;
+            child.position = spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length - 1)].transform.position;
+            child.parent.GetComponent<EnemyMovement>().enabled = true;
         }
     }
 }

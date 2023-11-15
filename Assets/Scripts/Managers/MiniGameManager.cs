@@ -13,7 +13,7 @@ public class MiniGameManager : MonoBehaviour
     public event EventHandler StartGame;
     public event EventHandler GameOverEvent;
     public event EventHandler Setup;
-    public event EventHandler HitEnemyEvent;
+    public event EventHandler EnemyHitEvent;
 
     AttackController playerAttack;
     GameObject GameOverMenu;
@@ -44,6 +44,11 @@ public class MiniGameManager : MonoBehaviour
     public void GameWon(object sender, EventArgs e)
     {
         GameWonEvent?.Invoke(sender, e);
+    }
+
+    public void EnemyHit(object sender, EventArgs e)
+    {
+        EnemyHitEvent?.Invoke(sender, e);
     }
 
     void FinishGame(object sender, EventArgs e)
