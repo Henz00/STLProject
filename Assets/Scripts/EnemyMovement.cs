@@ -18,10 +18,7 @@ public class EnemyMovement : MonoBehaviour
     {
         sheep = GameObject.Find("Sheep");
     }
-    void Start()
-    {
-        miniGameManager.HitEnemyEvent += GotHit;
-    }
+
 
     void Update()
     {
@@ -37,20 +34,5 @@ public class EnemyMovement : MonoBehaviour
         Vector3 direction = target.position - transform.position;
         if (direction.magnitude > 0.1f)
             transform.Translate(moveSpeed * Time.deltaTime * direction.normalized);
-    }
-
-    void GotHit(object sender, EventArgs e)
-    {
-        StopAllCoroutines();
-        isHit = true;
-        moveSpeed = 0;
-        StartCoroutine(ResumeMovement());
-    }
-
-    IEnumerator ResumeMovement()
-    {
-        yield return new WaitForSeconds(waitTime);
-        moveSpeed = 3f;
-        isHit = false;
     }
 }

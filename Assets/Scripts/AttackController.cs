@@ -7,50 +7,69 @@ public class AttackController : MonoBehaviour
 {
     MiniGameManager miniGameManager;
     public int attackDamage = 10;
-    public float attackCooldown = 1.0f;
-    private bool isAttacking = false;
+    float StunTime = 2.5f;
     public Animator animator;
 
-    public event EventHandler HitEnemy;
+    GameObject enemy;
 
     void Awake()
     {
         miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
+        enemy = GameObject.Find("Wolf");
+        
     }
     void Update()
     {
-        if (Input.GetButtonDown("AttackButton")) 
-        {
-            animator.SetTrigger("PerformAttack");
-            Attack();
-        }
+        if (Input.GetButtonDown("AttackButton") && IsEnemyClose(enemy.transform)) 
+            Attack(enemy);
     }
-    void Attack()
+
+    void Attack(GameObject enemy)
     {
+        Vector2 direction = enemy.transform.position - gameObject.transform.position;
         animator.SetTrigger("PerformAttack");
-        if (!isAttacking)
-        {
-            isAttacking = true;
-            HitEnemy?.Invoke(this, EventArgs.Empty);
-
-            //target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
-
-            StartCoroutine(AttackCooldown());
-        }
-
+        enemy.GetComponent<EnemyMovement>().enabled = false;
+        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 100, ForceMode2D.Force);
+        StartCoroutine(StunTimer());
     }
-    private IEnumerator AttackCooldown()
+
+    bool IsEnemyClose(Transform enemy)
     {
-        yield return new WaitForSeconds(attackCooldown);
-        isAttacking = false;
-    }
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Enemy"))
-        {
-            StunController stunController = GetComponent<StunController>();
-            stunController.StunObject(other.gameObject);
+        bool isClose;
 
-        }
+        if (Vector3.Distance(enemy.position, gameObject.transform.position) < 40f)
+            isClose = true;
+        else
+            isClose = false;
+
+        return isClose;
     }
+    //void Attack()
+    //{
+    //    animator.SetTrigger("PerformAttack");
+    //    if (!isAttacking)
+    //    {
+    //        isAttacking = true;
+    //        HitEnemy?.Invoke(this, EventArgs.Empty);
+
+    //        //target.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+
+    //        StartCoroutine(AttackCooldown());
+    //    }
+
+    //}
+    private IEnumerator StunTimer()
+    {
+        yield return new WaitForSeconds(StunTime);
+        enemy.GetComponent<EnemyMovement>().enabled = true;
+    }
+    //void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.CompareTag("Enemy"))
+    //    {
+    //        StunController stunController = GetComponent<StunController>();
+    //        stunController.StunObject(other.gameObject);
+
+    //    }
+    //}
 }

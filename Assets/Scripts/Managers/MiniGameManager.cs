@@ -77,8 +77,5 @@ public class MiniGameManager : MonoBehaviour
 
         //Chaining together the sheep reaching the finish line event
         GameWonEvent += FinishGame;
-
-        //Event for when player hits an enemy, use this event for UI changes, unit behaviour
-        playerAttack.HitEnemy += HitEnemy;
     }
 }
