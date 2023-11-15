@@ -13,12 +13,14 @@ public class UIManager : MonoBehaviour
     string gameOverSuccesText = "Good job! The sheep made it!";
     string gameOverFailedText = "Oh no! The sheep didn't make it.";
 
-    void Start()
+    void Awake()
     {
         miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
         GameOverMenuText = GameObject.Find("GameOverMenuText").GetComponent<TextMeshProUGUI>();
         pointManager = GameObject.Find("GameManager").GetComponent<PointManager>();
-
+    }
+    void Start()
+    {
         miniGameManager.GameOverEvent += UpdateTextGameOver;
         miniGameManager.GameWonEvent += UpdateTextGameWon;
     }

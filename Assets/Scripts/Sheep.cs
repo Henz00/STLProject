@@ -9,9 +9,12 @@ public class Sheep : MonoBehaviour
     public bool hasBeenEaten;
     MiniGameManager miniGameManager;
 
-    void Start()
+    void Awake()
     {
         miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
+    }
+    void Start()
+    {
         Setup();
     }
 

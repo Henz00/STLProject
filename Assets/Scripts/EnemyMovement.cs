@@ -14,10 +14,13 @@ public class EnemyMovement : MonoBehaviour
 
     private bool isHit = false;
 
+    void Awake()
+    {
+        sheep = GameObject.Find("Sheep");
+    }
     void Start()
     {
         miniGameManager.HitEnemyEvent += GotHit;
-        sheep = GameObject.Find("Sheep");
     }
 
     void Update()

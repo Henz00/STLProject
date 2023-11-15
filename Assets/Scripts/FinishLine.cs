@@ -10,7 +10,7 @@ public class FinishLine : MonoBehaviour
     public event EventHandler Finished;
     MiniGameManager miniGameManager;
 
-    private void Start()
+    void Awake()
     {
         miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
     }

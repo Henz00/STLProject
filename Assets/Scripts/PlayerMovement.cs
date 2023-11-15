@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float runSpeed = 20.0f;
 
-    void Start()
+    void Awake()
     {
         body = GetComponent<Rigidbody2D>();
         sprite = GetComponent<SpriteRenderer>();

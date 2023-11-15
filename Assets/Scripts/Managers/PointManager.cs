@@ -11,12 +11,15 @@ public class PointManager : MonoBehaviour
     private TimeManager timer;
     int startpoints;
 
+    void Awake()
+    {
+        text = GameObject.Find("Points").GetComponent<TextMeshProUGUI>();
+        timer = gameObject.GetComponent<TimeManager>();
+    }
     void Start()
     {
         points = 0;
-        text = GameObject.Find("Points").GetComponent<TextMeshProUGUI>();
         text.text = $"Points: {points}";
-        timer = gameObject.GetComponent<TimeManager>();
         startpoints = (int)timer.gameTime;
     }
 

@@ -8,9 +8,12 @@ public class EnemyManager : MonoBehaviour
 
     MiniGameManager miniGameManager;
 
-    void Start()
+    void Awake()
     {
         miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
+    }
+    void Start()
+    {
         miniGameManager.Setup += Setup;
     }
 

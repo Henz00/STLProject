@@ -21,8 +21,7 @@ public class MiniGameManager : MonoBehaviour
     Sheep sheep;
     GameObject SheepHerder;
 
-
-    void Start()
+    void Awake()
     {
         finish = GameObject.Find("SheepTargetPoint").GetComponent<FinishLine>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
@@ -30,7 +29,9 @@ public class MiniGameManager : MonoBehaviour
 
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         SheepHerder = GameObject.Find("Sheepherder");
-
+    }
+    void Start()
+    {
         SetupEvents();
         Setup += GameSetup;
         Setup?.Invoke(this, EventArgs.Empty);

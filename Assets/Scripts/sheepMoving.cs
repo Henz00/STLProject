@@ -12,12 +12,13 @@ public class sheepMoving : MonoBehaviour
     private Sheep sheepState;
     private MiniGameManager gameState;
 
-    private void Start()
+    private void Awake()
     {
         defaultTarget = GameObject.Find("SheepTargetPoint").GetComponent<Transform>();
         sheepState = gameObject.GetComponent<Sheep>();
         gameState = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
     }
+
     void Update()
     {
         if (gameState.gameActive)

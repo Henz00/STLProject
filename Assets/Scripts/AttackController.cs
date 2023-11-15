@@ -13,7 +13,7 @@ public class AttackController : MonoBehaviour
 
     public event EventHandler HitEnemy;
 
-    void Start()
+    void Awake()
     {
         miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
     }

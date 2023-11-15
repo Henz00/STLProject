@@ -10,11 +10,11 @@ public class TimeManager : MonoBehaviour
     public TMP_Text text;
     private Sheep sheep;
 
-    void Start()
+    void Awake()
     {
         text = GameObject.Find("GameTimer").GetComponent<TextMeshProUGUI>();
-        gameTime = 30;
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
+        gameTime = 30;
     }
 
 
