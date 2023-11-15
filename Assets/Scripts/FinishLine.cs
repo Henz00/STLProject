@@ -18,6 +18,6 @@ public class FinishLine : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Sheep"))
-            miniGameManager.GameWon(this, EventArgs.Empty);            //Finished?.Invoke(this, EventArgs.Empty);
+            miniGameManager.GameWon(this, EventArgs.Empty);
     }
 }

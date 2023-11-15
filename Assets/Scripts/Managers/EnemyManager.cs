@@ -10,6 +10,7 @@ public class EnemyManager : MonoBehaviour
 
     void Start()
     {
+        miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
         miniGameManager.Setup += Setup;
     }
 
