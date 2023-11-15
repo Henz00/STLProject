@@ -37,7 +37,7 @@ public class Sheep : MonoBehaviour
 
                 health--;
                 Vector2 direction = collision.gameObject.transform.position - gameObject.transform.position;
-                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 100, ForceMode2D.Force);
+                collision.gameObject.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 5, ForceMode2D.Impulse);
                 InvulnerabilityTime();
             }
             
