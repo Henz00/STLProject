@@ -8,10 +8,16 @@ public class FinishLine : MonoBehaviour
 {
 
     public event EventHandler Finished;
+    MiniGameManager miniGameManager;
+
+    private void Start()
+    {
+        miniGameManager = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Sheep"))
-            Finished?.Invoke(this, EventArgs.Empty);
+            miniGameManager.GameWon(this, EventArgs.Empty);            //Finished?.Invoke(this, EventArgs.Empty);
     }
 }

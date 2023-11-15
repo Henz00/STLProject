@@ -7,7 +7,8 @@ public class Sheep : MonoBehaviour
 {
     private int health;
     public bool hasBeenEaten;
-    public event EventHandler SheepWasEaten;
+    //public event EventHandler SheepWasEaten;
+    MiniGameManager miniGameManager;
 
     void Start()
     {
@@ -24,7 +25,8 @@ public class Sheep : MonoBehaviour
             if(health <= 0)
             {
                 hasBeenEaten = true;
-                SheepWasEaten?.Invoke(this, EventArgs.Empty);
+                //SheepWasEaten?.Invoke(this, EventArgs.Empty);
+                miniGameManager.GameLost(this, EventArgs.Empty);
             }
         }
     }

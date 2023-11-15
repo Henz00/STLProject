@@ -36,14 +36,14 @@ public class MiniGameManager : MonoBehaviour
         Setup?.Invoke(this, EventArgs.Empty);
     }
 
-    void GameLost(object sender, EventArgs e)
+    public void GameLost(object sender, EventArgs e)
     {
-        GameOverEvent?.Invoke(this, EventArgs.Empty);
+        GameOverEvent?.Invoke(this, e);
     }
 
-    void GameWon(object sender, EventArgs e)
+    public void GameWon(object sender, EventArgs e)
     {
-        GameWonEvent?.Invoke(this, EventArgs.Empty);
+        GameWonEvent?.Invoke(this, e);
     }
 
     void FinishGame(object sender, EventArgs e)
@@ -72,11 +72,11 @@ public class MiniGameManager : MonoBehaviour
     void SetupEvents()
     {
         //Chaining together the sheep being eaten event, and then starting the gamelost event from here (which all other classes should subscribe to if they need to do something when gamelost event happens)
-        sheep.SheepWasEaten += GameLost;
+        //sheep.SheepWasEaten += GameLost;
         GameOverEvent += FinishGame;
 
         //Chaining together the sheep reaching the finish line event
-        finish.Finished += GameWon;
+        //finish.Finished += GameWon;
         GameWonEvent += FinishGame;
 
         //Event for when player hits an enemy, use this event for UI changes, unit behaviour
