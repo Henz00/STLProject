@@ -11,6 +11,7 @@ TagManager:
   - Sheep
   - Grass
   - Road
+  - Gate closed
   layers:
   - Default
   - TransparentFX
