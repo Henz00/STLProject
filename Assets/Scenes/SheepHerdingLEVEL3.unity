@@ -2718,7 +2718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
-  waitTime: 2
+  waitTime: 1
   animator: {fileID: 1467771743}
 --- !u!111 &1467771742
 Animation:
@@ -2768,6 +2768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77312571214b76e4f80e7e7fabf57ccf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 1467771743}
 --- !u!1 &1478083450
 GameObject:
   m_ObjectHideFlags: 0
