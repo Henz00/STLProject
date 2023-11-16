@@ -7,7 +7,7 @@ public class Wolf : MonoBehaviour
 {
 
     MiniGameManager miniGameManager;
-
+    public Animator animator;
 
     void Awake()
     {
@@ -20,7 +20,7 @@ public class Wolf : MonoBehaviour
 
     void WasHit(object sender, EventArgs e)
     {
-        //gameObject.SetActive(false);
+        animator.SetTrigger("GetHit");
     }
 
 }
