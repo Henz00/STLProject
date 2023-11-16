@@ -2086,6 +2086,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1623177662}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1145596703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145596704}
+  m_Layer: 0
+  m_Name: AlignSheepTargetPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145596704
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145596703}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.55, y: 1.47, z: 0.47898746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1206275779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2855,10 +2886,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1490629312}
   - component: {fileID: 1490629311}
+  - component: {fileID: 1490629314}
   - component: {fileID: 1490629313}
   m_Layer: 0
   m_Name: Grass
-  m_TagString: Untagged
+  m_TagString: Grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2924,13 +2956,58 @@ Transform:
   m_GameObject: {fileID: 1490629310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.75, y: -5.18, z: 0}
+  m_LocalPosition: {x: -2.3, y: -5.18, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 781331763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1490629313
+--- !u!61 &1490629313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490629310}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.053465575, y: -0.0076378733}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.07, y: 1.01}
+    newSize: {x: 1.07, y: 1.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5658968, y: 0.56700027}
+  m_EdgeRadius: 0
+--- !u!114 &1490629314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2939,11 +3016,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1490629310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24e22938ad8cb7947984293938cdb4da, type: 3}
+  m_Script: {fileID: 11500000, guid: 8398bebc01e601d4b9652af706d4bd58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toggleTime: 10
-  isEnabled: 1
+  disappearDelay: 2
+  grassSpawnDelay: 2
+  isEnabled: 0
 --- !u!1 &1551476082
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,7 +3403,7 @@ GameObject:
   - component: {fileID: 1701481468}
   - component: {fileID: 1701481467}
   - component: {fileID: 1701481466}
-  - component: {fileID: 1701481465}
+  - component: {fileID: 1701481473}
   m_Layer: 0
   m_Name: Sheep
   m_TagString: Sheep
@@ -3333,23 +3411,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1701481465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1701481464}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab0925e7a0c2d754da6a7945a5a15479, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultTarget: {fileID: 1966519456}
-  alternateTarget: {fileID: 1490629312}
-  movementSpeed: 2
-  stoppingDistance: 0.1
-  enableDisable: {fileID: 1490629313}
 --- !u!111 &1701481466
 Animation:
   m_ObjectHideFlags: 0
@@ -3538,6 +3599,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1388730199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1701481473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701481464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7045bea8ea0dfa54a984d6f79b7052f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grassTag: Grass
+  moveSpeed: 2
+  playerFollowDistance: 5
 --- !u!1 &1730180076
 GameObject:
   m_ObjectHideFlags: 0
@@ -4263,3 +4339,4 @@ SceneRoots:
   - {fileID: 781331763}
   - {fileID: 1046897933}
   - {fileID: 1966519456}
+  - {fileID: 1145596704}
