@@ -27,8 +27,6 @@ public class Sheep : MonoBehaviour
         {
             if (!invulnerable)
             {
-                Debug.Log(health.ToString());
-
                 if (health <= 0)
                 {
                     hasBeenEaten = true;

@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/SheepHerdingLEVEL1.unity
+    guid: 5913a2b132031434192bea754460f33f
+  - enabled: 1
+    path: Assets/Scenes/SheepHerdingLEVEL2.unity
+    guid: 06f3e498be203df46a91c8cdc17021c1
+  - enabled: 1
+    path: Assets/Scenes/SheepHerdingLEVEL3.unity
+    guid: 97fbca39d1cfd654885f89bd900cf8f0
   m_configObjects: {}
