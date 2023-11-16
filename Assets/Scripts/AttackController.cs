@@ -38,7 +38,7 @@ public class AttackController : MonoBehaviour
     {
         bool isClose;
 
-        if (Vector3.Distance(enemy.position, gameObject.transform.position) < 40f)
+        if (Vector3.Distance(enemy.position, gameObject.transform.position) < 4f)
             isClose = true;
         else
             isClose = false;

@@ -20,7 +20,7 @@ public class Wolf : MonoBehaviour
 
     void WasHit(object sender, EventArgs e)
     {
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 
 }
