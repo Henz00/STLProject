@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     MiniGameManager miniGameManager;
 
     public float moveSpeed = 5f;
-    public float waitTime = 3f;
+    public float waitTime = 1f;
     public Animator animator;
     private GameObject sheep;
     private SpriteRenderer spriteRenderer;

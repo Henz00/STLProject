@@ -32,7 +32,7 @@ public class AttackController : MonoBehaviour
         animator.SetTrigger("PerformAttack");
         miniGameManager.EnemyHit(this, EventArgs.Empty);
         enemy.GetComponent<EnemyMovement>().enabled = false;
-        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 10, ForceMode2D.Impulse);
+        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 5, ForceMode2D.Impulse);
         swing.Play();
         StartCoroutine(StunTimer());
     }
