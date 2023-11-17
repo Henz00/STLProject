@@ -8,6 +8,7 @@ public class SheepController : MonoBehaviour
     public string grassTag = "Grass";
     public float moveSpeed = 2f;
     public float playerFollowDistance = 5f; // Adjust the distance as needed
+    public float playerStopIfClose = 2f;
 
     private Transform targetGrass;
     private Transform alignToGoal;
@@ -46,7 +47,7 @@ public class SheepController : MonoBehaviour
             {
                 MoveTowardsGrass();
             }
-            else if (IsPlayerInRange(playerFollowDistance))
+            else if (IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))
             {
                 FollowPlayer();
             }
