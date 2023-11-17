@@ -45,7 +45,7 @@ public class Sheep : MonoBehaviour
 
     private void Setup()
     {
-        health = 1;
+        health = 0;
         hasBeenEaten = false;
     }
 
