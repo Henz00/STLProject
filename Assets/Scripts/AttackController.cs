@@ -9,6 +9,8 @@ public class AttackController : MonoBehaviour
     public int attackDamage = 10;
     float StunTime = 2.5f;
     public Animator animator;
+    public AudioSource swing;
+
 
     GameObject enemy;
 
@@ -31,6 +33,7 @@ public class AttackController : MonoBehaviour
         miniGameManager.EnemyHit(this, EventArgs.Empty);
         enemy.GetComponent<EnemyMovement>().enabled = false;
         enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 10, ForceMode2D.Impulse);
+        swing.Play();
         StartCoroutine(StunTimer());
     }
 
