@@ -34,7 +34,8 @@ public class AttackController : MonoBehaviour
         enemy.GetComponent<EnemyMovement>().enabled = false;
         enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 5, ForceMode2D.Impulse);
         swing.Play();
-        StartCoroutine(StunTimer());
+        StartCoroutine(StunTimer(StunTime));
+        enemy.GetComponent<EnemyMovement>().enabled = true;
     }
 
     bool IsEnemyClose(Transform enemy)
@@ -62,18 +63,20 @@ public class AttackController : MonoBehaviour
     //    }
 
     //}
-    private IEnumerator StunTimer()
+    private IEnumerator StunTimer(float stuntime)
     {
-        yield return new WaitForSeconds(StunTime);
-        enemy.GetComponent<EnemyMovement>().enabled = true;
+        yield return new WaitForSeconds(stuntime);
     }
-    //void OnTriggerEnter(Collider other)
-    //{
-    //    if (other.CompareTag("Enemy"))
-    //    {
-    //        StunController stunController = GetComponent<StunController>();
-    //        stunController.StunObject(other.gameObject);
 
-    //    }
-    //}
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Enemy") && !collision.collider.GetComponent<Wolf>().isStunned)
+        {
+            gameObject.GetComponent<PlayerMovement>().enabled = false;
+            StunTimer(2f);
+            gameObject.GetComponent<PlayerMovement>().enabled = false;
+
+        }
+
+    }
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -12,6 +13,12 @@ public class UIManager : MonoBehaviour
 
     string gameOverSuccesText = "Good job! The sheep made it!";
     string gameOverFailedText = "Oh no! The sheep didn't make it.";
+
+    Dictionary<string, string> nextLevelPairs = new Dictionary<string, string>()
+    {
+        { "SheepHerdingLEVEL1", "SheepHerdingLEVEL2" },
+        { "SheepHerdingLEVEL2", "SheepHerdingLEVEL3" },
+    };
 
     void Awake()
     {
@@ -27,12 +34,12 @@ public class UIManager : MonoBehaviour
 
     void UpdateTextGameOver(object sender, EventArgs e)
     {
-        GameOverMenuText.text = gameOverFailedText + $"\nPoints gained: {pointManager.points}";
+        GameOverMenuText.text = gameOverFailedText;
     }
 
     void UpdateTextGameWon(object sender, EventArgs e)
     {
-        GameOverMenuText.text = gameOverSuccesText + $"\nPoints gained: {pointManager.points}";
+        GameOverMenuText.text = gameOverSuccesText;
     }
 
     public void RestartLevel()
@@ -42,12 +49,14 @@ public class UIManager : MonoBehaviour
 
     public void Continue()
     {
-
+        string name = SceneManager.GetActiveScene().name;
+        string nextlevel;
+        nextLevelPairs.TryGetValue(name, out nextlevel);
+        LoadLevel(nextlevel);
     }
-
-    public void ExitGame()
+    public void LoadLevel(string sceneName)
     {
-
+        SceneManager.LoadScene(sceneName);
     }
 
 }

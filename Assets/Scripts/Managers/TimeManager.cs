@@ -12,25 +12,25 @@ public class TimeManager : MonoBehaviour
 
     void Awake()
     {
-        text = GameObject.Find("GameTimer").GetComponent<TextMeshProUGUI>();
+        //text = GameObject.Find("GameTimer").GetComponent<TextMeshProUGUI>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
         gameTime = 30;
     }
 
 
-    void FixedUpdate()
-    {
-        if (!sheep.hasBeenEaten)
-        {
-            if (gameTime >= 0)
-            {
-                gameTime -= Time.deltaTime;
-                text.text = $"Time left: {Mathf.Ceil(gameTime)}";
-            }
-            else
-                text.text = $"Game over!";
-        } 
-        else
-            text.text = $"Game over!";
-    }
+    //void FixedUpdate()
+    //{
+    //    if (!sheep.hasBeenEaten)
+    //    {
+    //        if (gameTime >= 0)
+    //        {
+    //            gameTime -= Time.deltaTime;
+    //            text.text = $"Time left: {Mathf.Ceil(gameTime)}";
+    //        }
+    //        else
+    //            text.text = $"Game over!";
+    //    } 
+    //    else
+    //        text.text = $"Game over!";
+    //}
 }
