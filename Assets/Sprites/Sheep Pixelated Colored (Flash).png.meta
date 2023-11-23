@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,18 +121,2130 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1890886022ac9194c949c3853b83983f
+      internalID: -2086607040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728f30ad8cbbbc8449ecf5f6e7e84dc2
+      internalID: -147911463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792a93159974498469f345e5ca4350b8
+      internalID: 769093952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cbc21edd8b5404d9c82359cde3ea84
+      internalID: -195367583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65a87ede2be5fe4898058ad06f57454
+      internalID: -742156950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_5
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ddaa89926a5fa40a1d024502957f0f
+      internalID: -707989238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb1e2356be3f947a3ff1511d8ca749
+      internalID: 1410758277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce70edf752248ee4fb6ca0b9b9cdf04c
+      internalID: -1056407191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce851152ef822ea4cbee5bdc66f258af
+      internalID: 511521800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_9
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d590674dffce5304db0a9208fbe4d0e3
+      internalID: -1800875224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 336
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d0a87a40be57d4cb1f0c32742974ed
+      internalID: 1256019442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 336
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacabb81e722c854bb33cba062edce26
+      internalID: 1750225201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bc819514a7040409f2b22172a79a62
+      internalID: 1424699757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1909d3da93279614ba41e17c9d4807b2
+      internalID: 2127839338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_14
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d4b49c3d957e74c86d766d34b8a715
+      internalID: -1271356742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec62bf2bd3740e443a1136922419dd5e
+      internalID: 248224190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_16
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1740ee7b249b9c4aa9f10ffc47baffb
+      internalID: -485893301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_17
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a689f8250064cbf418a351b844c1f33b
+      internalID: -579409413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac80722f6e019d49a3e6084c289ff8e
+      internalID: 2029010928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_19
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47098a3dfb6daf84b9bcc55df2fa05e0
+      internalID: 1606021787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_20
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7006829d5d1334b9c8fc0ac761aba5
+      internalID: -1660622605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_21
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 288
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82f8a95e4090fd448372f05a549f9d4
+      internalID: -2024914193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 288
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc7ea58408894149aa4387da26e47a5
+      internalID: -304351177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_23
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 288
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fd4700972a312419ad6eff432176c2
+      internalID: -1495782118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92670ed9832624b48af0f4b1dd92a33b
+      internalID: -1381677776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c5030275c1ab42a1f801d6f684567
+      internalID: 1946388617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d0accf01264f44799a6d26a40b1efb
+      internalID: 430816161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_27
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8a32abe2085b74cb19821dbe0af6f2
+      internalID: -43558684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_28
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc8ef959a09fc2478b564d2ea7f00ed
+      internalID: -1445662588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_29
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e699d35a467ac5d4bacd4662fbcca202
+      internalID: -2143285422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d22883e2f2e0142b397dc746d4bd66
+      internalID: -229279996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_31
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcec951cc7d0bc5409786f123ab06160
+      internalID: -1782705032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_32
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4ed2b62e1b08644b634b7699191587
+      internalID: -159780335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 240
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d2408188aa1064fbea9064a447d42f
+      internalID: 1075172169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_34
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 240
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59003a5e789d559468a42e689fcce81e
+      internalID: -1099934271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_35
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 240
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a2d1b069e62f54f8ce09d2176f7763
+      internalID: -1161052007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_36
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4059660555c6db64b9726419205311d5
+      internalID: -1943113092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_37
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbb0680a02ef7942b28dc63c789b85f
+      internalID: -1946740455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb41cc5fb2d3c5428c73aff66330fbe
+      internalID: -2142744639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_39
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1aad37a4f695c4eab1876f3a3c33da
+      internalID: 2100574857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88272a933975e94db9e704ac6e20b86
+      internalID: -729854575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5418d80a3f710942b030bb1039d2f1c
+      internalID: -1954953204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_42
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a904637348714692e808646d73466
+      internalID: 701950673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_43
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a39cda7a10599946b6d9c454476354a
+      internalID: -2135731663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_44
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21ada4de8719794e902c9e941d808da
+      internalID: 1854046778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_45
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81686fc5e3ad049a620b222ef72c44
+      internalID: 1243118257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_46
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 192
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b0b1eeca8b08648b8b6773305d248d
+      internalID: -267953706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_47
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 192
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed2bb312d06fe049807c0901ad4e868
+      internalID: 567440248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89407aee97ab4d468ff85768ae4ad55
+      internalID: 311998785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d2ffd6e40a2a94e8d530b68157d347
+      internalID: -1625699579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_50
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e6464a6b628874cb0c86f574798970
+      internalID: 1139208480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_51
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d831fd86a77e84bbc2933b04b37ef0
+      internalID: 316216457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_52
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb5eb4df0600174c8f15f6e555c61c8
+      internalID: -1484018625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_53
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2d8fa01a04be240a6189228c4efb28
+      internalID: -798883284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_54
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e683b6d293313b478284f89a659c2ae
+      internalID: 2019088351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_55
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bdd62ebc861d4469fdf69dc083777a
+      internalID: -32428275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_56
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 716dddf8e8f54ee4783af3f4703c81c9
+      internalID: 1313199017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_57
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c41f0f84e956e14390bd3657788dd69
+      internalID: -1712578160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_58
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 144
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd4df9325be9f14a95cdf4f8625308b
+      internalID: 704529822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_59
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 144
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe8d15721cfa243af331e5460a82d5
+      internalID: 1042049171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a64edec76c3b64da8a88742da4ae6a
+      internalID: -866399226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_61
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91568d93382b64428f16324b9c028a8
+      internalID: 1410715553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86127e97332dcc64bbef8fcda5932a54
+      internalID: 200078190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_63
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b89ef9b9fcd97b47a0359ece89e051c
+      internalID: 193086884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_64
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3602d19ccb200f540bba00a062d2e8e1
+      internalID: -420719835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_65
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0540bb80eafc84ba0b65944d1f2fce
+      internalID: -1196737581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_66
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d2c898b04195144b8065a6cee36d51
+      internalID: -1775901310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_67
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69284a40d5852fe45bc1f07cc03fc632
+      internalID: 94569126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_68
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578940b8378e3504f8a1d1757f7c8fc7
+      internalID: 429026022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_69
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 96
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7345ddb25e4414ea2bb032900d26f6
+      internalID: 1149160598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_70
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 96
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a21a9fd2bdf3c2469e027d92b9d6d9d
+      internalID: 1797136576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_71
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 96
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d963f588416d8aa49a1ef5aede984bc9
+      internalID: -1762676531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c1a99c4e649c142ae34048abe5033d
+      internalID: 1591316646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_73
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dfdcdbfb42e6548afc6491d91ec716
+      internalID: 715521984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_74
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a15a6889f6d9a449365480fbc1a448
+      internalID: -1852749708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_75
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce5a859bf4165c49b7e6dd131afbeb7
+      internalID: -1153697474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_76
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cc77919370ee24c976e056db902d84
+      internalID: -1366089130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_77
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f72ddf95eafa341bbd6e75c91d8286
+      internalID: 1464140194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_78
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ff4cc869603b4a847a5132f9f9173
+      internalID: 2116459277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_79
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb1487da4cf36d44bec1b7e22b0e701
+      internalID: -441652764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_80
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a88f31f8caf1904aa260f17df5b0a7c
+      internalID: -612275800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_81
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 48
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4433c92aa065ade4784c229b1a28a536
+      internalID: 1948680012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_82
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 48
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299fb1952eca2634fb0cb5eb38bc01d4
+      internalID: 1641551976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_83
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 48
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d867db2a3769094bb39ed5245a55990
+      internalID: 1408774509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_84
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e418105280161bb4eaa2464597557297
+      internalID: 1936453585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_85
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b7954f2c2dfff428bbb9b7ef07c3df
+      internalID: 1624543263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_86
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b126b30cbced34da09ee3fa4c9ea0e
+      internalID: 1482537798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_87
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51910358985a9f64b96e1cdfd1504b82
+      internalID: -1638717734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_88
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40f7f34dd02b5e498ee5e6e6bb9943c
+      internalID: -728734721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_89
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0fb994502385a4580f95f022c64916
+      internalID: 393390427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_90
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f862a1781c4f3f48969388a92d65a39
+      internalID: -50574319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_91
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbbaece59992f144b3db35fd519c35e
+      internalID: -215724515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_92
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6dc543b68eb6c94094fcd1a78c1c24e
+      internalID: -662563536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_93
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9585bd82203d74cb99bb37e5e0ad90
+      internalID: -2105244308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_94
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 0
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18bde626b3e6144e866a9babd34d989
+      internalID: -571245372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sheep Pixelated Colored (Flash)_95
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebcff8348b4e04749ac2f8819d28e3d6
+      internalID: 444246586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 205c14e8588a8cc4ca05c22a3cea6331
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sheep Pixelated Colored (Flash)_0: -2086607040
+      Sheep Pixelated Colored (Flash)_1: -147911463
+      Sheep Pixelated Colored (Flash)_10: 1256019442
+      Sheep Pixelated Colored (Flash)_11: 1750225201
+      Sheep Pixelated Colored (Flash)_12: 1424699757
+      Sheep Pixelated Colored (Flash)_13: 2127839338
+      Sheep Pixelated Colored (Flash)_14: -1271356742
+      Sheep Pixelated Colored (Flash)_15: 248224190
+      Sheep Pixelated Colored (Flash)_16: -485893301
+      Sheep Pixelated Colored (Flash)_17: -579409413
+      Sheep Pixelated Colored (Flash)_18: 2029010928
+      Sheep Pixelated Colored (Flash)_19: 1606021787
+      Sheep Pixelated Colored (Flash)_2: 769093952
+      Sheep Pixelated Colored (Flash)_20: -1660622605
+      Sheep Pixelated Colored (Flash)_21: -2024914193
+      Sheep Pixelated Colored (Flash)_22: -304351177
+      Sheep Pixelated Colored (Flash)_23: -1495782118
+      Sheep Pixelated Colored (Flash)_24: -1381677776
+      Sheep Pixelated Colored (Flash)_25: 1946388617
+      Sheep Pixelated Colored (Flash)_26: 430816161
+      Sheep Pixelated Colored (Flash)_27: -43558684
+      Sheep Pixelated Colored (Flash)_28: -1445662588
+      Sheep Pixelated Colored (Flash)_29: -2143285422
+      Sheep Pixelated Colored (Flash)_3: -195367583
+      Sheep Pixelated Colored (Flash)_30: -229279996
+      Sheep Pixelated Colored (Flash)_31: -1782705032
+      Sheep Pixelated Colored (Flash)_32: -159780335
+      Sheep Pixelated Colored (Flash)_33: 1075172169
+      Sheep Pixelated Colored (Flash)_34: -1099934271
+      Sheep Pixelated Colored (Flash)_35: -1161052007
+      Sheep Pixelated Colored (Flash)_36: -1943113092
+      Sheep Pixelated Colored (Flash)_37: -1946740455
+      Sheep Pixelated Colored (Flash)_38: -2142744639
+      Sheep Pixelated Colored (Flash)_39: 2100574857
+      Sheep Pixelated Colored (Flash)_4: -742156950
+      Sheep Pixelated Colored (Flash)_40: -729854575
+      Sheep Pixelated Colored (Flash)_41: -1954953204
+      Sheep Pixelated Colored (Flash)_42: 701950673
+      Sheep Pixelated Colored (Flash)_43: -2135731663
+      Sheep Pixelated Colored (Flash)_44: 1854046778
+      Sheep Pixelated Colored (Flash)_45: 1243118257
+      Sheep Pixelated Colored (Flash)_46: -267953706
+      Sheep Pixelated Colored (Flash)_47: 567440248
+      Sheep Pixelated Colored (Flash)_48: 311998785
+      Sheep Pixelated Colored (Flash)_49: -1625699579
+      Sheep Pixelated Colored (Flash)_5: -707989238
+      Sheep Pixelated Colored (Flash)_50: 1139208480
+      Sheep Pixelated Colored (Flash)_51: 316216457
+      Sheep Pixelated Colored (Flash)_52: -1484018625
+      Sheep Pixelated Colored (Flash)_53: -798883284
+      Sheep Pixelated Colored (Flash)_54: 2019088351
+      Sheep Pixelated Colored (Flash)_55: -32428275
+      Sheep Pixelated Colored (Flash)_56: 1313199017
+      Sheep Pixelated Colored (Flash)_57: -1712578160
+      Sheep Pixelated Colored (Flash)_58: 704529822
+      Sheep Pixelated Colored (Flash)_59: 1042049171
+      Sheep Pixelated Colored (Flash)_6: 1410758277
+      Sheep Pixelated Colored (Flash)_60: -866399226
+      Sheep Pixelated Colored (Flash)_61: 1410715553
+      Sheep Pixelated Colored (Flash)_62: 200078190
+      Sheep Pixelated Colored (Flash)_63: 193086884
+      Sheep Pixelated Colored (Flash)_64: -420719835
+      Sheep Pixelated Colored (Flash)_65: -1196737581
+      Sheep Pixelated Colored (Flash)_66: -1775901310
+      Sheep Pixelated Colored (Flash)_67: 94569126
+      Sheep Pixelated Colored (Flash)_68: 429026022
+      Sheep Pixelated Colored (Flash)_69: 1149160598
+      Sheep Pixelated Colored (Flash)_7: -1056407191
+      Sheep Pixelated Colored (Flash)_70: 1797136576
+      Sheep Pixelated Colored (Flash)_71: -1762676531
+      Sheep Pixelated Colored (Flash)_72: 1591316646
+      Sheep Pixelated Colored (Flash)_73: 715521984
+      Sheep Pixelated Colored (Flash)_74: -1852749708
+      Sheep Pixelated Colored (Flash)_75: -1153697474
+      Sheep Pixelated Colored (Flash)_76: -1366089130
+      Sheep Pixelated Colored (Flash)_77: 1464140194
+      Sheep Pixelated Colored (Flash)_78: 2116459277
+      Sheep Pixelated Colored (Flash)_79: -441652764
+      Sheep Pixelated Colored (Flash)_8: 511521800
+      Sheep Pixelated Colored (Flash)_80: -612275800
+      Sheep Pixelated Colored (Flash)_81: 1948680012
+      Sheep Pixelated Colored (Flash)_82: 1641551976
+      Sheep Pixelated Colored (Flash)_83: 1408774509
+      Sheep Pixelated Colored (Flash)_84: 1936453585
+      Sheep Pixelated Colored (Flash)_85: 1624543263
+      Sheep Pixelated Colored (Flash)_86: 1482537798
+      Sheep Pixelated Colored (Flash)_87: -1638717734
+      Sheep Pixelated Colored (Flash)_88: -728734721
+      Sheep Pixelated Colored (Flash)_89: 393390427
+      Sheep Pixelated Colored (Flash)_9: -1800875224
+      Sheep Pixelated Colored (Flash)_90: -50574319
+      Sheep Pixelated Colored (Flash)_91: -215724515
+      Sheep Pixelated Colored (Flash)_92: -662563536
+      Sheep Pixelated Colored (Flash)_93: -2105244308
+      Sheep Pixelated Colored (Flash)_94: -571245372
+      Sheep Pixelated Colored (Flash)_95: 444246586
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
