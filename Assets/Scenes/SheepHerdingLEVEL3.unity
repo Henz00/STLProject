@@ -374,6 +374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wolf
       objectReference: {fileID: 0}
+    - target: {fileID: 2804002323737557919, guid: 5c788fca3d3ccda4f9f402f090763a36, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6659708846555918527, guid: 5c788fca3d3ccda4f9f402f090763a36, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.06

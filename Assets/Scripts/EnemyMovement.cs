@@ -41,6 +41,11 @@ public class EnemyMovement : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+ 
+        else if (currentPosition == previousPosition)
+        {
+            spriteRenderer.flipX = true;
+        }
         previousPosition = currentPosition;
     }
 
