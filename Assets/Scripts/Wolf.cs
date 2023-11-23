@@ -9,6 +9,7 @@ public class Wolf : MonoBehaviour
     MiniGameManager miniGameManager;
     public Animator animator;
     public bool isStunned;
+    public AudioSource hit;
 
     void Awake()
     {
@@ -23,7 +24,7 @@ public class Wolf : MonoBehaviour
     {
         animator.SetTrigger("GetHit");
         stunTimer(2f);
-
+        hit.Play();
     }
 
     private IEnumerator stunTimer(float stuntime)

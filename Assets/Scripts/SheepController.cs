@@ -16,7 +16,7 @@ public class SheepController : MonoBehaviour
 
     private bool isTargeted = false;
     private MiniGameManager gameState;
-    
+    public AudioSource bah;
 
     private void Awake()
     {
@@ -86,6 +86,7 @@ public class SheepController : MonoBehaviour
     {
         Vector2 direction = (targetGrass.position - transform.position).normalized;
         transform.Translate(direction * moveSpeed * Time.deltaTime);
+        bah.Play();
     }
 
     void FollowPlayer()
@@ -93,6 +94,7 @@ public class SheepController : MonoBehaviour
         Vector2 playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position;
         Vector2 direction = (playerPosition - (Vector2)transform.position).normalized;
         transform.Translate(direction * moveSpeed * Time.deltaTime);
+        bah.Play();
     }
 
     bool IsPlayerInRange(float range)
