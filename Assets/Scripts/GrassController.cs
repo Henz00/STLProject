@@ -6,8 +6,6 @@ public class GrassController : MonoBehaviour
     public float disappearDelay = 2f;
     public float grassSpawnDelay = 2f;
     public bool isEnabled = true;
-    private GameObject player;
-    public AudioSource hitGrassSound;
 
     // Adjust these values to set the range for grass spawn
     public float minX = -10f;
@@ -21,25 +19,7 @@ public class GrassController : MonoBehaviour
     {
         gameObject.SetActive(isEnabled);
         initialPosition = transform.position; // Save the initial position
-        player = GameObject.FindGameObjectWithTag("Player"); // Assuming the player has the "Player" tag
         Invoke("GrassSpawnTime", grassSpawnDelay);
-    }
-
-    void Update()
-    {
-        // Check if the player is close and presses attack
-        if (IsPlayerClose() && Input.GetButtonDown("AttackButton"))
-        {
-            hitGrassSound.Play();
-            Invoke("DisappearDelayed", 0.5f);
-            Debug.Log("HitGrass");
-        }
-    }
-
-    bool IsPlayerClose()
-    {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
-        return distanceToPlayer < 3f; // Adjust the distance as needed
     }
 
     public bool IsTargeted()
