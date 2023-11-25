@@ -74,14 +74,10 @@ public class AttackController : MonoBehaviour
 
     void Attack(GameObject enemy)
     {
-        Vector2 direction = enemy.transform.position - transform.position;
         animator.SetTrigger("PerformAttack");
         miniGameManager.EnemyHit(this, EventArgs.Empty);
-        enemy.GetComponent<EnemyMovement>().enabled = false;
-        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 5, ForceMode2D.Impulse);
         swing.Play();
-        StartCoroutine(StunTimer(stunTime));
-        enemy.GetComponent<EnemyMovement>().enabled = true;
+        StartCoroutine(StunTimerEnemy(stunTime, enemy));
     }
 
     bool IsEnemyClose(Transform enemy)
@@ -89,18 +85,30 @@ public class AttackController : MonoBehaviour
         return Vector3.Distance(enemy.position, transform.position) < 4f;
     }
 
-    IEnumerator StunTimer(float stuntime)
+    IEnumerator StunTimerEnemy(float stuntime, GameObject enemy)
     {
+        enemy.GetComponent<EnemyMovement>().enabled = false;
+        Vector2 direction = enemy.transform.position - transform.position;
+        enemy.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 5, ForceMode2D.Impulse);
         yield return new WaitForSeconds(stuntime);
-        GetComponent<PlayerMovement>().enabled = true;
+        enemy.GetComponent<EnemyMovement>().enabled = true;
+    }
+
+    IEnumerator StunTimerPlayer(float stuntime)
+    {
+        gameObject.GetComponent<PlayerMovement>().enabled = false;
+        Vector2 direction = transform.position - enemy.transform.position;
+        gameObject.GetComponent<Rigidbody2D>().AddForce(direction.normalized * 5, ForceMode2D.Impulse);
+        yield return new WaitForSeconds(stuntime);
+        gameObject.GetComponent<PlayerMovement>().enabled = true;
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.CompareTag("Enemy") && !collision.collider.GetComponent<Wolf>().isStunned)
+        if (collision.collider.CompareTag("Enemy")) //&& !collision.collider.GetComponent<Wolf>().isStunned
         {
-            GetComponent<PlayerMovement>().enabled = false;
-            StartCoroutine(StunTimer(2f));
+            Debug.Log("collision");
+            StartCoroutine(StunTimerPlayer(2f));
         }
     }
 }
