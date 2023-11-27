@@ -10,7 +10,7 @@ public class AttackController : MonoBehaviour
     float stunTime = 2.5f;
     public Animator animator;
     public AudioSource swing;
-    public AudioSource hitBush;
+    //public AudioSource hitBush;
     private GameObject[] grassObjects;
     private GameObject enemy;
 
@@ -20,7 +20,7 @@ public class AttackController : MonoBehaviour
         enemy = GameObject.Find("Wolf");
         grassObjects = GameObject.FindGameObjectsWithTag("Grass");
         swing = GetComponent<AudioSource>();
-        hitBush = GetComponent<AudioSource>();
+        //hitBush = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -44,7 +44,7 @@ public class AttackController : MonoBehaviour
         {
             grass.SetActive(false);
             animator.SetTrigger("PerformAttack");
-            hitBush.Play();
+           // hitBush.Play();
         }
     }
 
