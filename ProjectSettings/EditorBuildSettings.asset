@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SheepHerdingLEVEL1.unity
     guid: 5913a2b132031434192bea754460f33f
   - enabled: 1
-    path: Assets/Scenes/SheepHerdingLEVEL2.unity
+    path: Assets/Scenes/(OLD) SheepHerdingLEVEL2.unity
     guid: 06f3e498be203df46a91c8cdc17021c1
   - enabled: 1
     path: Assets/Scenes/SheepHerdingLEVEL3.unity

@@ -286,6 +286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 137112147}
   - component: {fileID: 137112146}
+  - component: {fileID: 137112148}
   m_Layer: 0
   m_Name: 'Closed '
   m_TagString: Untagged
@@ -360,6 +361,102 @@ Transform:
   m_Children: []
   m_Father: {fileID: 320162558}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &137112148
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137112145}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6bbbb644ecf308647a5be6d589859fe9, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &180262678
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23516,8 +23613,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc44e632dd783c14bbe3154f8fd89173, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSpriteRenderer: {fileID: 0}
-  closed: {fileID: 0}
+  targetSpriteRenderer: {fileID: 137112146}
+  closed: {fileID: 137112148}
 --- !u!1 &1921452298
 GameObject:
   m_ObjectHideFlags: 0
@@ -23700,7 +23797,7 @@ Transform:
   m_GameObject: {fileID: 1966519455}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.23, y: -0.29, z: 0}
+  m_LocalPosition: {x: -13.71, y: -0.29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24362,9 +24459,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grass
       objectReference: {fileID: 0}
+    - target: {fileID: 409178852609671234, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: be7ac141dcaf92b48b22f5fc6bbccfa4, type: 3}
+    - target: {fileID: 802773937309721224, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 802773937309721224, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 802773937309721224, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.94
+      value: 6.11
       objectReference: {fileID: 0}
     - target: {fileID: 802773937309721224, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
       propertyPath: m_LocalPosition.y
@@ -24401,6 +24510,42 @@ PrefabInstance:
     - target: {fileID: 802773937309721224, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_Size.x
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_Size.y
+      value: 1.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 1841453568826253280, guid: c8a876c2d26fd6d4cb9d17750b996181, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
