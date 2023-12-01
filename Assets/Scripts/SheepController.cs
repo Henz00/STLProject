@@ -41,22 +41,18 @@ public class SheepController : MonoBehaviour
             if (!isTargeted)
             {
                 FindNearestAvailableGrass();
-                Debug.Log("FindNearestAvailableGrass");
             } else if (IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))
             {
                 FollowPlayer();
-                Debug.Log("PlayerGrass");
             }
 
             if (targetGrass != null && grassOnMap != false)
             {
                 MoveTowardsGrass();
-                Debug.Log("MoveTowardsGrass");
             }
             else if (IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))
             {
                 FollowPlayer();
-                Debug.Log("FollowPlayer");
             }
 
             /*if (grassOnMap = true && IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))

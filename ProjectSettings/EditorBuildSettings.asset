@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SheepHerdingLEVEL3.unity
     guid: 97fbca39d1cfd654885f89bd900cf8f0
+  - enabled: 1
+    path: Assets/Scenes/SheepHerdingLEVEL2GrassTest.unity
+    guid: a1aefc313a15c374ebb0e396e742b7d6
   m_configObjects: {}

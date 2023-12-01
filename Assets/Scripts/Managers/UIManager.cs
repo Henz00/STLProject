@@ -16,8 +16,8 @@ public class UIManager : MonoBehaviour
 
     Dictionary<string, string> nextLevelPairs = new Dictionary<string, string>()
     {
-        { "SheepHerdingLEVEL1", "SheepHerdingLEVEL2" },
-        { "SheepHerdingLEVEL2", "SheepHerdingLEVEL3" },
+        { "SheepHerdingLEVEL1", "SheepHerdingLEVEL2GrassTest" },
+        { "SheepHerdingLEVEL2GrassTest", "SheepHerdingLEVEL3" },
     };
 
     void Awake()
