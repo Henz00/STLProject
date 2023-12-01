@@ -15,19 +15,21 @@ public class MiniGameManager : MonoBehaviour
     public event EventHandler Setup;
     public event EventHandler EnemyHitEvent;
 
-    AttackController playerAttack;
+    GameObject player;
     GameObject GameOverMenu;
     FinishLine finish;
     Sheep sheep;
     GameObject SheepHerder;
+    EnemyManager enemyManager;
 
     void Awake()
     {
         finish = GameObject.Find("SheepTargetPoint").GetComponent<FinishLine>();
         sheep = GameObject.Find("Sheep").GetComponent<Sheep>();
-        playerAttack = GameObject.Find("Sheepherder").GetComponent<AttackController>();
+        player = GameObject.Find("Sheepherder");
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         SheepHerder = GameObject.Find("Sheepherder");
+        enemyManager = GameObject.Find("WolfPack").GetComponent<EnemyManager>();
     }
     void Start()
     {
@@ -54,6 +56,8 @@ public class MiniGameManager : MonoBehaviour
     void FinishGame(object sender, EventArgs e)
     {
         gameActive = false;
+        player.GetComponent<PlayerMovement>().enabled = false;
+        enemyManager.GameOverState();
         points = GetComponent<PointManager>().points;
         GameOverMenu.SetActive(true);
     }
@@ -61,6 +65,7 @@ public class MiniGameManager : MonoBehaviour
     public void GameSetup(object sender, EventArgs e)
     {
         gameActive = true;
+        player.GetComponent<PlayerMovement>().enabled = true;
         GameOverMenu.SetActive(false);
         sheep.gameObject.transform.position = GameObject.Find("SheepSpawnPoint").GetComponent<Transform>().position;
         SheepHerder.transform.position = GameObject.Find("PlayerSpawnPoint").GetComponent<Transform>().position;

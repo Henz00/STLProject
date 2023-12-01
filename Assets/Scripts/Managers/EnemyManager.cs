@@ -14,18 +14,26 @@ public class EnemyManager : MonoBehaviour
     }
     void Start()
     {
-        miniGameManager.Setup += Setup;
+        miniGameManager.StartGame += Setup;
     }
 
-    void Setup(object sender, EventArgs e)
+    public void Setup(object sender, EventArgs e)
     {
         Transform[] spawnpoints;
         spawnpoints = GameObject.Find("WolfSpawnPoints").GetComponentsInChildren<Transform>();
 
         foreach (Transform child in gameObject.GetComponentInChildren<Wolf>().gameObject.transform)
         {
-            child.position = spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length - 1)].transform.position;
+            child.position = spawnpoints[UnityEngine.Random.Range(0, spawnpoints.Length)].position;
             child.parent.GetComponent<EnemyMovement>().enabled = true;
+        }
+    }
+
+    public void GameOverState()
+    {
+        foreach (Transform child in gameObject.GetComponentInChildren<Wolf>().gameObject.transform)
+        {
+            child.parent.GetComponent<EnemyMovement>().enabled = false;
         }
     }
 }
