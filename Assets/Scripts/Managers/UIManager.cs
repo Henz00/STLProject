@@ -44,7 +44,7 @@ public class UIManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        miniGameManager.GameSetup(this, EventArgs.Empty);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void Continue()

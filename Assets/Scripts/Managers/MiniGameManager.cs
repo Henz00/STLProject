@@ -29,7 +29,15 @@ public class MiniGameManager : MonoBehaviour
         player = GameObject.Find("Sheepherder");
         GameOverMenu = GameObject.Find("GameOverMenuHolder");
         SheepHerder = GameObject.Find("Sheepherder");
-        enemyManager = GameObject.Find("WolfPack").GetComponent<EnemyManager>();
+        try
+        {
+            enemyManager = GameObject.Find("WolfPack").GetComponent<EnemyManager>();
+        }
+        catch (Exception e)
+        {
+            Debug.Log("No enemies in this level");
+        }
+        
     }
     void Start()
     {
@@ -57,7 +65,10 @@ public class MiniGameManager : MonoBehaviour
     {
         gameActive = false;
         player.GetComponent<PlayerMovement>().enabled = false;
-        enemyManager.GameOverState();
+
+        if(!enemyManager == null)
+            enemyManager.GameOverState();
+            
         points = GetComponent<PointManager>().points;
         GameOverMenu.SetActive(true);
     }
