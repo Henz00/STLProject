@@ -17,13 +17,13 @@ public class SheepController : MonoBehaviour
     private bool isTargeted = false;
     private MiniGameManager gameState;
     public AudioSource bah;
+    private bool grassOnMap;
 
     private void Awake()
     {
         gameState = GameObject.Find("GameManager").GetComponent<MiniGameManager>();
         alignToGoal = GameObject.Find("AlignSheepTargetPoint").GetComponent<Transform>();
         walkToGoal = GameObject.Find("SheepTargetPoint").GetComponent<Transform>();
-
     }
 
     void Update()
@@ -41,16 +41,30 @@ public class SheepController : MonoBehaviour
             if (!isTargeted)
             {
                 FindNearestAvailableGrass();
+                Debug.Log("FindNearestAvailableGrass");
+            } else if (IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))
+            {
+                FollowPlayer();
+                Debug.Log("PlayerGrass");
             }
 
-            if (targetGrass != null)
+            if (targetGrass != null && grassOnMap != false)
             {
                 MoveTowardsGrass();
+                Debug.Log("MoveTowardsGrass");
             }
             else if (IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))
             {
                 FollowPlayer();
+                Debug.Log("FollowPlayer");
             }
+
+            /*if (grassOnMap = true && IsPlayerInRange(playerFollowDistance) && !IsPlayerInRange(playerStopIfClose))
+            {
+                FollowPlayer();
+            }
+            */
+            
 
             triggerWalkToGoal(alignToGoal);
         }
@@ -75,10 +89,16 @@ public class SheepController : MonoBehaviour
             }
         }
 
+        if (grassObjects == null || grassObjects.Length == 0)
+        {
+            grassOnMap = false;
+        }
+
         if (nearestGrass != null)
         {
             targetGrass = nearestGrass;
             targetGrass.GetComponent<GrassController>().SetTargeted(true);
+            grassOnMap = true;
         }
     }
 

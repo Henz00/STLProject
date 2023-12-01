@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 8
+  grassSpawnDelay: 10
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -556,7 +556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 21
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 6
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -1857,7 +1857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 13
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -23472,7 +23472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 15
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -24447,7 +24447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 2
+  grassSpawnDelay: 4
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -24545,7 +24545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 18
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -24945,7 +24945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 30
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6
@@ -25336,7 +25336,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7050321216576527180, guid: 9f48600161c88924ebf604346b3c4e07, type: 3}
       propertyPath: m_Name
-      value: Sheep (1)
+      value: Sheep
       objectReference: {fileID: 0}
     - target: {fileID: 7583746170816379284, guid: 9f48600161c88924ebf604346b3c4e07, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25671,7 +25671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   disappearDelay: 2
-  grassSpawnDelay: 26
+  grassSpawnDelay: 111
   isEnabled: 0
   minX: -10
   maxX: 6

@@ -12,6 +12,7 @@ public class GrassController : MonoBehaviour
     public float maxX = 6f;
     public float minY = -2f;
     public float maxY = 2f;
+    SheepController sheep;
 
     private Vector2 initialPosition;
 
@@ -20,6 +21,7 @@ public class GrassController : MonoBehaviour
         gameObject.SetActive(isEnabled);
         initialPosition = transform.position; // Save the initial position
         Invoke("GrassSpawnTime", grassSpawnDelay);
+        sheep = GameObject.Find("Sheep").GetComponent<SheepController>();
     }
 
     public bool IsTargeted()
@@ -49,6 +51,7 @@ public class GrassController : MonoBehaviour
 
     private void DisappearDelayed()
     {
+        sheep.SetIsTargeted(false);
         gameObject.SetActive(false);
     }
 
@@ -56,10 +59,10 @@ public class GrassController : MonoBehaviour
     {
         if (other.CompareTag("Sheep"))
         {
-            SheepController sheep = other.GetComponent<SheepController>();
+           // SheepController sheep = other.GetComponent<SheepController>();
             if (sheep != null)
             {
-                sheep.SetIsTargeted(false); // Stop the sheep from targeting grass
+                 // Stop the sheep from targeting grass
                 Invoke("DisappearDelayed", disappearDelay);
             }
         }
